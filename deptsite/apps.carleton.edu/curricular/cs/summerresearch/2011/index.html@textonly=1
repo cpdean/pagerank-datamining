@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Summer 2011 Research Projects (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Summer 2011 Research Projects</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><p>Below you will find a list of faculty that will be conducting research during the Summer of 2011 and are looking for research students. </p>
+<p><strong>Project:  Self-Healing Networks (Amy Csizmar Dalal, 2-3 students)</strong></p>
+<p>Self-healing networks are the future of computer networks:  they can detect, predict, and recover from pathologies such as lost, delayed, and/or mangled data, all without human intervention.  Such networks will make applications, particularly video, more robust and yield a better, richer, more seamless end-user experience.  In addition, self-healing networks make "rich media" applications, those that use very high quality, immersive audio and video (think telepresence, immersive gaming, remote medicine), possible.  In this project, students will design strategies to allow networks to detect pathological conditions specifically in video streams and automatically recover from such conditions.  No experience with computer networks is necessary, although you should plan on taking Data Structures either Winter or Spring Term if you have not already done so.  A background in software design, statistics, psychology, or cognitive science is helpful but not required.</p>
+<p><strong>Project:  Enriching Online Collaborative Communities: Supercharging the Entry of Information and People into Wikipedia (Dave Musicant, 2-4 students)</strong></p>
+<p>Wikipedia is amazing, isn't it? Lots of people have come together to discuss content and produce a free encyclopedia whose articles are often among the top hits at Google. Wikipedia is often incomplete or incorrect, however, and the need remains strong to get accurate and current information into it. With a relatively mature body such as Wikipedia, this can be challenging to do, and new Wikipedia editors often feel daunted and leave the community. For this project, we'll look at developing tools whose purpose is to help get more content into Wikipedia, and to help Wikipedia editors stick around and be more productive. The project will be a mix of data analysis, recommender-system techniques, user interface design, and effects studies; we'll actually be looking to build tools, and measure the effects of using those tools on the people who use them. This project is part computer science and part social science; we'll be using computing algorithms and techniques to make an impact in how people work and interact.  Students interested in this project should have completed CS 201 (Data Structures). Taking CS 324 (Data Mining) this spring would be helpful, but is not required.</p>
+<p><strong>Project:  Evolutionary Computation (Sherri Goings, 2-4 students)</strong></p>
+<p>One of the goals of artificial intelligence is to be able to view the computer as a “black box”, you simply give it the problem you want to solve, and it gives you the answer, without you needed to understand all of the internal workings.  Evolutionary computation seeks to create this black box by harnessing the power of Darwinian evolution to solve computational problems.  Instead of programming a solution, the user simply initializes a population of very simple (and probably very bad) solutions, and then sits back while the population evolves until a good solution appears.  However in order to find a good solution, the parameters and dynamics of the evolutionary system have to be set appropriately, and to set them appropriately we have to understand the dynamics in the first place.  Therefore my research has two sides, the first is to harness the power of evolution to solve real problems, and the second is to use computational power to study and understand the dynamics of evolution itself.  This summer my focus will be on understanding the dynamics of how cooperation and communication evolve between individuals in a population, and using that understanding to create populations of cooperative individuals that are able to solve more complex problems than a typical evolutionary algorithm. Students interested in either question (or both) are encouraged to apply for summer research.  Students should have taken Data Structures, and background in biological evolution is helpful but not required.  Classes such as AI or the current EC course would also be helpful background, but not necessary.   </p></div>
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem open item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a><ul class="navList"><li class="navListItem open current item9"><strong>Summer 2011 Research Projects</strong></li><li class="navListItem closed item10"><a href="/curricular/cs/summerresearch/photos/?textonly=1">Research Photo Gallery</a></li></ul></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 7 January 2011</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /alumni/1953gift
+Disallow: /alumni/cave/assets/CAVE_Arrival_Information___by_arrival_time.pdf
+Disallow: /alumni/cave/assets/CAVE_Arrival_Information___by_class.pdf
+Disallow: /alumni/cave/assets/CAVE_Departure_Information___by_departure_time.pdf
+Disallow: /alumni/cave/assets/CAVE_Departure_Information___by_class.pdf
+Disallow: /alumni/aaf/flash/2007_fall/

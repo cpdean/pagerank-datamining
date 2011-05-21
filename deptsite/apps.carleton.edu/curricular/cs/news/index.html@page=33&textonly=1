@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Newsletter: Carleton Sentinel (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/publication/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Carleton Sentinel, the CS Newsletter" />
+<meta name="keywords" content="Computer Science, Newsletter, Department, CS, Carleton Sentinel, Questions, Problems, News, Information" />
+<meta name="robots" content="none" />
+<link rel="alternate" type="application/rss+xml" href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?page=33">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Newsletter: Carleton Sentinel</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="blogDescription">
+<p>&quot;Keeping you in the loop since 2005&quot;</p></div>
+
+
+</div>
+<div class="contentPost">
+
+
+<div id="blog" class="publication">
+<div class="persistent">
+
+<div id="filtering">
+<form method="get" action="?" class="searchForm" >
+<input type="hidden" name="textonly" value="1"><label for="filterSearch1">Search:</label> <input name="search" value="" size="10" class="search" id="filterSearch1" />
+ <input class="submit" name="go" type="submit" value="Go" />
+</form>
+</div>
+<div class="loginlogout logout"><a href="https://apps.carleton.edu/login/"><span class="action">Log In</span></a></div>
+</div>
+<div class="moduleNav">
+<div class="pagination above"><a href="?textonly=1&amp;page=32" title="Newer" class="previous">&lt;&lt; Newer</a> <span class="pages"> <a href="?textonly=1&amp;page=1" title="Page 1">1</a> … <a href="?textonly=1&amp;page=28" title="Page 28">28</a> <a href="?textonly=1&amp;page=29" title="Page 29">29</a> <a href="?textonly=1&amp;page=30" title="Page 30">30</a> <a href="?textonly=1&amp;page=31" title="Page 31">31</a> <a href="?textonly=1&amp;page=32" title="Page 32">32</a> <strong>33</strong> </span></div>
+<ul class="posts">
+<li class="post"><h4 class="title"><a href="?story_id=137063&amp;textonly=1">Social Gathering for Computer Science Students</a></h4>
+<div class="date">September 15, 2005</div>
+<div class="desc"><p>Dave Musicant says: I'm going to be having a party for computer science majors and prospective computer science majors at my house on Saturday, September 17, starting at 7 PM and going as long as we feel like it. I hope you can come! You can also bring a friend if you like. Dinner won't be provided, but food and drink will be. I live in Lakeville, so if you want to go and can't find a ride with other students, send me email. Similarly, if you have a car<br />
+with additional space, send me email. Contact me directly for address and directions. Hope to see you there!</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=137063">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=137048&amp;textonly=1">Meet the new Computer Science professor: David Liben-Nowell</a></h4>
+<div class="date">September 15, 2005</div>
+<div class="desc"><p>In June 2005, David finished his PhD in theoretical computer science at MIT. His research interests include a variety of topics in theoretical computer science, with a focus on large-scale information networks, especially social networks (like Friendster), and their evolution. Prior to his stint at MIT, David received a BA from Cornell and an MPhil from the University of Cambridge. While living in the UK, he developed an unhealthy obsession with cricket; he also enjoys ultimate frisbee, road biking, and constructing crossword puzzles in his free time. When he was visiting Carleton for his interview, several of the Math/CS faculty made comments about how miserable the winters are in Duluth. He views this as an encouraging sign that he might just make it through until spring in Northfield. David's office is CMC 320. Stop by and introduce yourself!</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=137048">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=137054&amp;textonly=1">Introduction</a></h4>
+<div class="date">September 15, 2005</div>
+<div class="desc"><p>Welcome to the first release of the Carleton Sentinel! The Carleton Sentinel is the new newsletter describing items of interest to the computer science community at Carleton College.</p>
+<p>We have an email list associated with this newsletter so that we can send out text versions of it on a semi-regular basis. To make this easy to manage, we have created an email list through Carleton's list server. Computer science majors are automatically added to this list, but anyone else can be added. If you are not currently a computer science major but would like to be on the list, go to <a href="https://lists.carleton.edu/info/carleton_sentinel">https://lists.carleton.edu/info/carleton_sentinel</a> and click "Subscribe" on the left hand side.</p>
+<p>The newsletter is currently being managed by Dave Musicant (dmusican), so contact him if you have any ideas for content or questions about subscribing.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=137054">Permalink</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="pagination below"><a href="?textonly=1&amp;page=32" title="Newer" class="previous">&lt;&lt; Newer</a> <span class="pages"> <a href="?textonly=1&amp;page=1" title="Page 1">1</a> … <a href="?textonly=1&amp;page=28" title="Page 28">28</a> <a href="?textonly=1&amp;page=29" title="Page 29">29</a> <a href="?textonly=1&amp;page=30" title="Page 30">30</a> <a href="?textonly=1&amp;page=31" title="Page 31">31</a> <a href="?textonly=1&amp;page=32" title="Page 32">32</a> <strong>33</strong> </span></div>
+<div class="feedLink"><div class="feedInfo"><a href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed">xml</a></div><div class="feedHelp"><a href="http://apps.carleton.edu/campus/webgroup/articles/feeds/" title="More information about feeds">What is this?</a></div></div></div>
+</div>
+
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?page=33">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem open current item6"><strong>Newsletter</strong></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 15 April 2010</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

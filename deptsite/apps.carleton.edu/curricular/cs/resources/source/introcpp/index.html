@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Writing and Compiling programs in Linux</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="How to write and compile a C++ program on Linux using g++." />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="fullGraphics crumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="hide"><a href="?textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<a name="top"></a><div id="carlNavWrap" class="standard">
+<div id="carlNav">
+<h1 id="carlHome"><a href="//www.carleton.edu/" title="Carleton College Home"><span></span>Carleton College</a></h1>
+<div class="searchWrap">
+<div id="combinedSearch">
+<div class="finders"><ul><li class="az"><a href="/az/" title="Alphabetical site list">A-Z Guide</a></li><li class="dir"><a href="//www.carleton.edu/campus/directory/" title="Faculty, Staff, &amp; Student Directory">Directory</a></li></ul></div>
+<form action="/search/" method="get">
+<div class="elements">
+<label for="combinedSearchInput" id="combinedSearchInputLabel"><span class="rep"></span>Search<span class="xtr"> people and pages</span></label>
+<input type="text" id="combinedSearchInput" name="keyword" size="14" class="input" />
+<input type="submit" id="combinedSearchSubmit" value="go" class="submit" />
+</div>
+</form>
+</div>
+</div>
+<div id="carlTabs">
+<div id="carlTopics"><ul><li class="home"><a href="//www.carleton.edu/" title="Carleton College home page"><img src="/global_stock/nav/img/home.gif" alt="Home" /></a></li><li class="acad sel"><a href="/academics/" title="Departments, programs, &amp; majors"><img src="/global_stock/nav/img/acad_sel.gif" alt="Academics" /></a></li><li class="life"><a href="/life/" title="Arts, athletics, organizations, and more"><img src="/global_stock/nav/img/life.gif" alt="Campus Life" /></a></li></ul></div><div id="carlAudiences"><ul><li class="prosp"><a href="/admissions/" title="Admissions &amp; other information for prospective students"><img src="/global_stock/nav/img/prosp.gif" alt="Prospective Students" /></a></li><li class="alum"><a href="/alumni/" title="Alumni Gateway"><img src="/global_stock/nav/img/alum.gif" alt="Alumni" /></a></li><li class="facs"><a href="/campus/" title="Faculty/Staff Gateway"><img src="/global_stock/nav/img/facs.gif" alt="Faculty &amp; Staff" /></a></li><li class="stud"><a href="/student/" title="Student Gateway"><img src="/global_stock/nav/img/stud.gif" alt="Students" /></a></li><li class="fam"><a href="/parents/" title="Parent &amp; Family Gateway"><img src="/global_stock/nav/img/fam.gif" alt="Families" /></a></li></ul></div>
+</div>
+</div>
+</div>
+<div id="wrapper" class="fullGraphicsView">
+<div id="breadcrumbs" class="locationBarText">You are here: <a href='http://www.carleton.edu/curricular/index.html' class='locationBarLinks'>Academic Departments</a> &gt; <a href="/curricular/cs/" class="locationBarLinks">Computer Science</a> &gt; <a href="/curricular/cs/resources/" class="locationBarLinks">Resources</a> &gt; <a href="/curricular/cs/resources/source/" class="locationBarLinks">Programming Resources and Tools</a> &gt; Compiling in Linux</div>
+<div class="bannerAndMeat fullGraphics">
+<div class="banner">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bannerTable" summary="The Site Name">
+<tr>
+<td class="bannerCol1">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+</td>
+<td class="bannerCol2">
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="layout">
+<table border="0" cellspacing="0" cellpadding="0" class="layoutTable" summary="The Main Content of Page">
+<tr>
+<td valign="top" class="navigationTD">
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/">Student Employment</a></li><li class="navListItem open item5"><a href="/curricular/cs/resources/source/">Programming Resources and Tools</a><ul class="navList"><li class="navListItem closed item5"><a href="/curricular/cs/resources/source/mini_courses/">CS Mini Courses</a></li><li class="navListItem open current item6"><strong>Compiling in Linux</strong></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/source/makefiles/">Makefiles</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/source/keyb_int/">Keyboard Interrupts</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/source/bg_progs/">Running programs in the background</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/source/javascanner/">Scanner class</a></li><li class="navListItem closed item11 jump"><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li><li class="navListItem closed item12"><a href="/curricular/cs/resources/source/java_classpath_variable/">Setting your Java CLASSPATH variable</a></li><li class="navListItem closed item13"><a href="/curricular/cs/resources/source/java_install/">Installing Java 1.6 on your home computer</a></li><li class="navListItem closed item14"><a href="/curricular/cs/resources/source/python_install/">Installing Python 2.x On Your Home Computer</a></li><li class="navListItem closed item15"><a href="/curricular/cs/resources/source/Python_26/">Installing Python 3.0 on your home computer</a></li><li class="navListItem closed item16"><a href="/curricular/cs/resources/source/cygwin_howto/">Installing Cygwin</a></li><li class="navListItem closed item17"><a href="/curricular/cs/resources/source/tex/">TeX and LaTeX</a></li></ul></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/">CS Lab Assistant Resources</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/libe/">Periodicals</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/">Links</a></li><li class="navListItem closed item11"><a href="/curricular/cs/resources/graderguidelines/">Grader Guidelines</a></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+
+
+<p class="textOnlyLink smallText"><a href="?textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<div class="navigationSpacer"><img src="/reason_package/reason_4.0/www/ui_images/stp.gif" width="150" height="2" alt="" /></div>
+</td>
+<td valign="top" class="contentTD">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Writing and Compiling programs in Linux</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><h3><strong>Section 1: Brief Outline</strong></h3>
+<p><strong><a href="#Logging%20In">A</a>:</strong> Log into your account.</p>
+<p><strong><a href="#Launching%20NEdit">B</a>:</strong> Launch NEdit by clicking the NEdit icon on the application panel.</p>
+<p><strong><a href="#Type%20Away">C</a>:</strong> Type your program code.</p>
+<p><strong><a href="#Saving%20your%20work">D</a>:</strong> Save your program by selecting <strong>Save As</strong> from NEdit's <strong>File</strong> menu.</p>
+<p><strong><a href="#Opening%20a%20Terminal%20Window">E</a>:</strong> Open a terminal window by single-clicking the 'Terminal' icon on the task bar along the bottom</p>
+<p><strong><a href="#Compiling%20and%20Running%20Your%20Program">F</a>:</strong> Compile your program by typing:</p>
+<pre>
+    g++ -Wall programName.cpp -o programName
+</pre>
+
+<blockquote>
+<p>or, to run the debugging:</p></blockquote>
+<pre>
+    g++ -g -Wall programName.cpp -o programName
+</pre>
+
+<p><strong><a href="#Compiling%20and%20Running%20Your%20Program">G</a>:</strong> Run your program by typing 'programName' in the terminal window.</p>
+<p><strong><a href="#Printing%20your%20work">H</a>:</strong> Print your work by selecting the text you want to print and choosing Print from the menu.</p>
+<p><strong><a href="#Logging%20Out">I</a>:</strong> Log out by selecting Log Out from the footprint menu.</p>
+<p><strong><a href="#FAQ">J</a>:</strong> <em>Frequently Asked Questions</em>.</p>
+<h3><strong>Section 2: Detailed Instructions</strong></h3>
+<p><strong>A: Logging In.<a name="Logging In" id="Logging In"></a></strong></p>
+<p>Begin by finding a free computer in CMC 306. If no one else is logged in, the computer will be displaying the Linux login panel. First, make sure your pointer is somewhere on the login panel. Then, type your username, then password in the spaces provided.</p>
+<p>If you do not have a Linux account and would like one, see Mike Tie in CMC 305.</p>
+<p><strong>B: Launching NEdit.<a name="Launching NEdit" id="Launching NEdit"></a></strong></p>
+NEdit is the name of the simple text editor for linux. You will use it to enter and save your program code. To run NEdit, simply click on NEdit icon on the application panel. This will open up a NEdit window. If you are reading this document for the first time, you should enter the text below in the NEdit window. 
+<p>Be sure your text is an exact replication of what is shown below. If you misspell anything or miss any punctuation, your program will not compile.</p>
+<img alt="Hello World!" src="//webapps.acs.carleton.edu/global_stock/photostock/68601.jpg" border="0" height="322" hspace="10" vspace="10" width="500" /><br />
+<p>In case the above image is blurry, use the following text:</p>
+<pre>
+#include &lt;iostream.h&gt;<br /><br />int main() {<br /><br />    cout &lt;&lt; "Hello world!" &lt;&lt; endl;<br /><br />}
+</pre>
+
+<p><strong>C: Type away.<a name="Type Away" id="Type Away"></a></strong></p>
+<p><u>Save often</u>, every five minutes is good. See below.</p>
+<p><strong>D: Saving your work.<a name="Saving your work" id="Saving your work"></a></strong></p>
+<p>After you have typed a few lines, you should save your program to avoid data loss. Also, save your program periodically while you are working on it, and remember, <strong>you must save your program before you compile it.</strong> To do this, choose save as from the file menu. The first time you do this, you will see a panel like this:</p>
+<img alt="Save dialogue for NEdit" src="//webapps.acs.carleton.edu/global_stock/photostock/68604.jpg" border="0" height="346" hspace="10" vspace="10" width="500" /><br />
+<p>Click on this panel. To save your document, first give it a name, by typing in the <strong>Selection</strong> field, then click on the <strong>OK</strong> button or press the enter key on the keyboard. This will create a file in the current directory with the name you specified above. In the example above, the name "myprogram.cpp" has been entered. A NOTE ABOUT NAMING: you should end the names of your programs with ".cpp" - this is called an extension, and the computer recognizes ".cpp" as a C++ source file.</p>
+<p>NOTE: You need to remember which directory (or folder) you saved your program in. Unless you have created a new directory, this will be in your home (username) folder.</p>
+<p>At this point, you may continue typing in new code or editing the code you have already typed. Remember to save your work periodically by choosing <strong>Save</strong> from the <strong>File</strong> menu. If you have already saved a document, you will not see the save window again. Your older saved version will be updated with the more recent version, and you will not be asked for a new file name. If you do not wish to update the old version, and you want to name the current file something different, choose <strong>Save As</strong> instead of <strong>Save</strong> from the <strong>File</strong> menu.</p>
+<p><strong>E: Opening a Terminal Window.<a name="Opening a Terminal Window" id="Opening a Terminal Window"></a></strong></p>
+<p>Now that you have completed writing and saving your program, you are ready to compile it.</p>
+<p>To compile a program with g++, you need to access a "terminal window," a window in which you can tyoe commands at what is called a "prompt." This is essentially a way to interact with a computer using only words, i.e. no mouse, no graphics, etc.</p>
+<p>To open a terminal window, just click on the Terminal button on the task bar along the bottom of the screen. This will bring up a terminal window on your screen. In this window you will type the commands necessary to compile and run your programs, and you will see the error messages, warnings, and other information given to you by the compiler. Let's suppose you've entered a program in a NEdit window and saved it already under the name "<tt>myprogram.cpp</tt>".</p>
+<p>We will use the 'hello world' (above, section B) for illustration.</p>
+<p><strong>F - G: Compiling and Running Your Program.<a name="Compiling and Running Your Program" id="Compiling and Running Your Program"></a></strong></p>
+<p>To compile this program, you first need to make sure you are in the correct directory. If you saved your file in a directory other than your home directory (see the note in <strong>section D</strong>), then at the command prompt in a terminal window type:</p>
+<pre>
+    cd DirectoryName
+</pre>
+
+<p>To check that your file is in this directory, type the command <tt>'dir'</tt> in at the command prompt. You should see a list of file names in a column near the right of the window. Once you are in the correct directory, type the following command at the prompt to compile your program:</p>
+<img alt="Compiling a program" src="//webapps.acs.carleton.edu/global_stock/photostock/68607.jpg" border="0" height="174" hspace="10" vspace="10" width="500" /><br />
+<p>A brief explanation of this command:</p>
+<ul>
+<li>"<tt>g++</tt>" is the name of the compiler program.</li>
+<li><tt>-o</tt>" tells g++ that the next string will be the name of the executable. Normally g++ creates a file named "<tt>a.out</tt>" from the information in the source code, but this command tells it to name the file "<tt>myprogram</tt>".</li>
+<li>"<tt>myprogram</tt>" is the name given to the executable.</li>
+<li><tt>"myprogram.cpp</tt>" is the name of the file you are sending to the compiler.</li></ul>
+<p>The compiler then creates an "executable" file called '<tt>myprogram</tt>'. When you run this, it will cause the words '<tt>Hello World</tt>' to be printed on the screen, followed by a carriage return. You can run this program by simply typing myprogram at the command prompt. The output of the program will appear in the terminal window, as shown below:</p>
+<img alt="Running the program" src="//webapps.acs.carleton.edu/global_stock/photostock/68610.jpg" border="0" height="174" hspace="10" vspace="10" width="500" /><br />
+<p>And that's all there is to writing, saving, compiling and running a C++ program. These same basic steps can be used to enter and compile any C++ program. If your program does not compile or run correctly, it is easy to fine tune it. You can keep your source file open in a NEdit window and make small changes after you run it. Then save and re-compile it to run the new version. Remember , you must save your program before you compile it to have any change take effect.</p>
+<p><strong>H: Printing your work.<a name="Printing your work" id="Printing your work"></a></strong></p>
+<p>Any time you want to take your program home with you to figure out why it isn't working or hand in a copy to your professor, you will want to print the source code (that is, the ".cpp" file). To print your program code return to the editor by clicking on the editor window. If you cannot see the window, click on the appropriate button on the right side of the task bar, and then click on the window. Choose <strong>Print</strong> from the <strong>File</strong> menu. A panel for printing will appear. Click Print, and your code will be printed on the printer in the room you are working in.</p>
+<img alt="Printing dialogue box" src="//webapps.acs.carleton.edu/global_stock/photostock/68612.jpg" border="0" height="196" hspace="10" vspace="10" width="396" /><br />
+<p><strong>I: Logging Out.<a name="Logging Out" id="Logging Out"></a></strong></p>
+<p>It is very important to log out of the computer when you are done with a programming session. If you do not log out before you leave your machine, someone else could come by and accidentally (or maliciously) delete some of your files or otherwise abuse the system. To log out, simply click on the footprint and choose the <strong>Log out</strong> option from the menu. A new alert panel will appear in the middle of the screen asking you if you really want to log out. Press the Enter key or click on the <strong>Yes</strong> button to complete the log out process. Make sure you have successfully logged out by waiting for the login panel to reappear before leaving your machine.'</p>
+<p><strong>J: Frequently Asked Questions <em>(FAQ)</em>:<a name="FAQ" id="FAQ"></a></strong></p>
+<p><em>Where can I get extra help?</em></p>
+<p>There are Lab Assistants in CMC 306 every night from 7pm to 11pm and some afternoon hours. A <u>lab assistant schedule</u> is posted on the web and in the labs. If there isn't a lab assistant available and you have a technical question, then ask Mike Tie for help. Mike is the Math/CS technical assistant, and his office is in 305, next door to the Intro CS lab. If there isn't a lab assistant available and you have a programming question, see your instructor.</p>
+<p><em>My program is hung! What do I do?</em></p>
+<p>You should be able to stop any program (either hung or operating normally) by simply pressing the 'Control' key (lower left of the keyboard labeled 'Ctrl') and the 'c' key at the same time. This will return you to the command prompt of your terminal window.</p></div>
+
+</div>
+<div class="contentPost">
+
+
+<ul class="siblingList">
+<li><a href="../mini_courses/">CS Mini Courses</a></li>
+<li><strong>Compiling in Linux</strong></li>
+<li><a href="../beep_prog/">Beep Program</a></li>
+<li><a href="../makefiles/">Makefiles</a></li>
+<li><a href="../keyb_int/">Keyboard Interrupts</a></li>
+<li><a href="../bg_progs/">Running programs in the background</a></li>
+<li><a href="../javascanner/">Scanner class</a></li>
+<li><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li>
+<li><a href="../java_classpath_variable/">Setting your Java CLASSPATH variable</a></li>
+<li><a href="../java_install/">Installing Java 1.6 on your home computer</a></li>
+<li><a href="../python_install/">Installing Python 2.x On Your Home Computer</a></li>
+<li><a href="../PILinstallation/">PIL (Python Imaging Library) for Python 2.x</a></li>
+<li><a href="../Python_26/">Installing Python 3.0 on your home computer</a></li>
+<li><a href="../cygwin_howto/">Installing Cygwin</a></li>
+<li><a href="../tex/">TeX and LaTeX</a></li>
+</ul>
+
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 9 September 2004</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Using Makefiles (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Guidelines for using Makefiles, with example code included." />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Using Makefiles</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><h3>Why use make files?</h3>
+<ul>
+<li><a href="#long">Get rid of long, cumbersome compile directives</a></li>
+<li><a href="#proj">Make compiling projects with multiple source files easier</a></li></ul>
+<p>It is important to follow the exact <a href="#proj">guidelines</a> for creating make files.</p>
+<h3><a name="long" id="long"></a>Reduce Compile Command Length</h3>
+<p>Sometimes, you may find that the compile command for some programs can be very long and tedious to type over and over again. For instance, the compile line for graphics programs is rather long, and you might be tired of typing it; one way to avoid this is to create a "Makefile". A Makefile is a command file for compiling programs. For example, lets assume that we have a graphics program called face.cpp, and that the compile line is</p>
+<pre>
+    g++ -o face face.cpp -L/usr/X11R6/lib -lm -lX11 -lgd -lg2
+</pre>
+
+<p>We would create a file named "Makefile", and in it we should put the lines</p>
+<pre>
+    face: face.cpp
+</pre>
+
+<pre>
+        g++ -o face face.cpp -L/usr/X11R6/lib -lm -lX11 -lgd -lg2
+</pre>
+
+<p>Now to compile face we would use the command</p>
+<pre>
+    make
+</pre>
+
+<p>or</p>
+<pre>
+    make face
+</pre>
+
+<p><strong>A Makefile can also be used to compile more than one program.</strong></p>
+<p>For example, we have face.cpp and pumpkin.cpp; here's a Makefile that can be used to compile both:</p>
+<pre>
+pumpkin: pumpkin.cpp
+</pre>
+
+<pre>
+    g++ -o pumpkin pumpkin.cpp -L/usr/X11R6/lib -lm -lX11 -lgd -lg2
+</pre>
+
+<pre>
+face: face.cpp
+</pre>
+
+<pre>
+    g++ -o face face.cpp -L/usr/X11R6/lib -lm -lX11 -lgd -lg2
+</pre>
+
+<p>To compile pumpkin, we would type</p>
+<pre>
+    make pumpkin
+</pre>
+
+<p>To compile face, we would type</p>
+<pre>
+    make face
+</pre>
+
+<p>As you create more programs, you may add them to the Makefile if you so desire.</p>
+<h3><a name="guide" id="guide"></a>Guidelines for making Makefiles</h3>
+<ol>
+<li>The Makefile must be spelled and capitalized exactly like we have it here: Makefile</li>
+<li>Your program name must be followed by a colon and then the filename as in: pumpkin: pumpkin.cpp</li>
+<li>After this line, there must be a tab and then whatever compile line you want.</li>
+<li>If you just type "make" at a prompt, it will compile the first program listed in the Makefile. In this case, typing "make" would compile pumpkin.</li></ol>
+<h3><a name="proj" id="proj"></a>Project Management</h3>
+Suppose you are working on a project that contains multiple C++ classes, you should code and test the classes separately. Breaking the project into multiple files helps you do this. 
+<p>For each class create a header file and a source file. The header file contains the class definition, prototypes of the member functions, type definitions, constants, and global variables used by the class; all programs that use this class will include this header file. The source file contains the actual source for the member functions.</p>
+<p>For example, let's assume that our project requires a simple calculator class with Add and Multiply functions. Here's one possible header file (<a href="/curricular/cs/assets/calculator.h">calculator.h</a>):</p>
+<pre>
+class Calculator<br />{<br />private:<br />    float temp_var;
+</pre>
+
+<pre>
+public:<br />    float calculator_Add ( float a, float b );<br />    float calculator_Multiply ( float a, float b );<br />};
+</pre>
+
+<p>The actual source might look something like this (<a href="/curricular/cs/assets/calculator.cpp">calculator.cpp</a>):</p>
+<pre>
+#include "calculator.h"
+</pre>
+
+<pre>
+float Calculator::calculator_Add ( float a, float b )<br />{<br />    temp_var = a + b;<br />    return( temp_var );<br />}
+</pre>
+
+<pre>
+float Calculator::calculator_Multiply ( float a, float b )<br />{<br />    temp_var = a * b;<br />    return( temp_var );<br />}
+</pre>
+
+<p>The following program would be a good test program (<a href="/curricular/cs/assets/mycalctester.cpp">mycalctester.cpp</a>):</p>
+<pre>
+#include &lt;iostream.h&gt;<br />#include "calculator.h"<br /><br />void main (void)<br />{<br />    float x, y;<br />    float result;<br /><br />    Calculator mycalc;<br /><br />    x = 10;<br />    y = 10;<br /><br />    cout &lt;&lt; " x = " &lt;&lt; x &lt;&lt; endl;<br />    cout &lt;&lt; " y = " &lt;&lt; y &lt;&lt; endl;<br />    cout &lt;&lt; endl;<br /><br />    result = mycalc.calculator_Add (x, y);<br />    cout &lt;&lt; " x + y = " &lt;&lt; result &lt;&lt; endl;<br /><br />    result = mycalc.calculator_Multiply (x, y);<br />    cout &lt;&lt; " x * y = " &lt;&lt; result &lt;&lt; endl;<br />}
+</pre>
+
+<p>Compiling:</p>
+<p>Start by compiling calculator.cpp into a object file. Assuming that you are using a UNIX system, you do this with the command:</p>
+<pre>
+    g++ -c calculator.cpp
+</pre>
+
+<p>This creates a file called calculator.o</p>
+<p>To compile the test program mycalctester.cpp, you would use the command:</p>
+<pre>
+    g++ -Wall -o mycalctester mycalctester.cpp calculator.o
+</pre>
+
+<p>Unfortunately, if you change the calculator.cpp, you must issue both compile commands. To simplify project management, you may want use makefiles. A makefile is a simple tool to update your project without having to recompile all the source files again. With "make" you will only compile the code fragments that have been modified and the fragments that depend on them. For instance, mycalctester.cpp depends on calculator.cpp; if mycaltester.cpp is modified, then you need to recompile everything. If you modify mycalctester.cpp and nothing else, then you only need to compile mycalctester.cpp.</p>
+<p>Here is an example makefile for the programs listed above (Makefile):</p>
+<pre>
+mycalctester: mycalctester.cpp calculator.o calculator.h<br />    g++ -o mycalctester mycalctester.cpp calculator.o
+</pre>
+
+<pre>
+calculator.o: calculator.cpp calculator.h<br />    g++ -c calculator.cpp
+</pre>
+
+<p>To execute the makefile use the command</p>
+<pre>
+    make
+</pre>
+
+<p>or</p>
+<pre>
+    make mycalctester
+</pre></div>
+
+</div>
+<div class="contentPost">
+
+
+<ul class="siblingList">
+<li><a href="../mini_courses/?textonly=1">CS Mini Courses</a></li>
+<li><a href="../introcpp/?textonly=1">Compiling in Linux</a></li>
+<li><a href="../beep_prog/?textonly=1">Beep Program</a></li>
+<li><strong>Makefiles</strong></li>
+<li><a href="../keyb_int/?textonly=1">Keyboard Interrupts</a></li>
+<li><a href="../bg_progs/?textonly=1">Running programs in the background</a></li>
+<li><a href="../javascanner/?textonly=1">Scanner class</a></li>
+<li><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li>
+<li><a href="../java_classpath_variable/?textonly=1">Setting your Java CLASSPATH variable</a></li>
+<li><a href="../java_install/?textonly=1">Installing Java 1.6 on your home computer</a></li>
+<li><a href="../python_install/?textonly=1">Installing Python 2.x On Your Home Computer</a></li>
+<li><a href="../PILinstallation/?textonly=1">PIL (Python Imaging Library) for Python 2.x</a></li>
+<li><a href="../Python_26/?textonly=1">Installing Python 3.0 on your home computer</a></li>
+<li><a href="../cygwin_howto/?textonly=1">Installing Cygwin</a></li>
+<li><a href="../tex/?textonly=1">TeX and LaTeX</a></li>
+</ul>
+
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/?textonly=1">Student Employment</a></li><li class="navListItem open item5"><a href="/curricular/cs/resources/source/?textonly=1">Programming Resources and Tools</a><ul class="navList"><li class="navListItem closed item5"><a href="/curricular/cs/resources/source/mini_courses/?textonly=1">CS Mini Courses</a></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/source/introcpp/?textonly=1">Compiling in Linux</a></li><li class="navListItem open current item7"><strong>Makefiles</strong></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/source/keyb_int/?textonly=1">Keyboard Interrupts</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/source/bg_progs/?textonly=1">Running programs in the background</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/source/javascanner/?textonly=1">Scanner class</a></li><li class="navListItem closed item11 jump"><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li><li class="navListItem closed item12"><a href="/curricular/cs/resources/source/java_classpath_variable/?textonly=1">Setting your Java CLASSPATH variable</a></li><li class="navListItem closed item13"><a href="/curricular/cs/resources/source/java_install/?textonly=1">Installing Java 1.6 on your home computer</a></li><li class="navListItem closed item14"><a href="/curricular/cs/resources/source/python_install/?textonly=1">Installing Python 2.x On Your Home Computer</a></li><li class="navListItem closed item15"><a href="/curricular/cs/resources/source/Python_26/?textonly=1">Installing Python 3.0 on your home computer</a></li><li class="navListItem closed item16"><a href="/curricular/cs/resources/source/cygwin_howto/?textonly=1">Installing Cygwin</a></li><li class="navListItem closed item17"><a href="/curricular/cs/resources/source/tex/?textonly=1">TeX and LaTeX</a></li></ul></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/?textonly=1">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/?textonly=1">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/?textonly=1">CS Lab Assistant Resources</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/libe/?textonly=1">Periodicals</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/?textonly=1">Links</a></li><li class="navListItem closed item11"><a href="/curricular/cs/resources/graderguidelines/?textonly=1">Grader Guidelines</a></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 9 September 2004</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

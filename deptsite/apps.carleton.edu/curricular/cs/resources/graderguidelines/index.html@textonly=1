@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Grader Guidelines (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Guidelines a computer science grader should follow." />
+<meta name="author" content="purringk and hoele" />
+<meta name="keywords" content="Grading, Guidelines, Guide, Grade" />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Grader Guidelines</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><p>Students will submit their homework to their hand-in folder in the course folder on Collab. You can access this with the map-network-drives command in linux. Then look at ~/Collab/Courses/cs/<em>coursenumber</em>/Student Work/ This folder contiains a directory for each student, and each student's personal folder contains hand-in and return folders.</p>
+<p><br />
+When you start grading an assignment, <em>copy</em> that assignment from the hand-in folder to the return folder for each student. This provides a permanent record of the particular version of the file that you graded in case there are later disputes.</p>
+<p>If you need to make changes to a student's submitted work (including compiling source code), again <em>copy</em> the files to a working folder somewhere in your home directory.</p>
+<p>It works well to write out a text file of comments for each student (again somewhere in your home directory). Then, when you're finished grading, copy the comments to each student's return folder. A shell script like <a title="this" href="/curricular/cs/assets/return.bash">this</a> can make this really easy.</p>
+<p>Often, instructors will also want a copy of all the comment files. The easiest way to do this is to create a tarball archive and attach it to an e-mail. Run the following command from the directory with the comment files. (Assuming that your comment files are the only text files in the directory).</p>
+<p>&gt; tar -cvzf comments.tgz *.txt</p>
+<p>It is helpful to students to receive an e-mail telling them to check the return folder once an assignment is graded. You can ask the professor to give you access to the course mailing list for this reason.</p></div>
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/?textonly=1">Student Employment</a></li><li class="navListItem closed item5"><a href="/curricular/cs/resources/source/?textonly=1">Programming Resources and Tools</a></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/?textonly=1">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/?textonly=1">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/?textonly=1">CS Lab Assistant Resources</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/libe/?textonly=1">Periodicals</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/?textonly=1">Links</a></li><li class="navListItem open current item11"><strong>Grader Guidelines</strong></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 7 June 2007</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

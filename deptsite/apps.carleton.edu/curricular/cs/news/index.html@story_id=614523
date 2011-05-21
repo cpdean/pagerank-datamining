@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Newsletter: Carleton Sentinel: Multitouch Application Contest</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/publication/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Carleton Sentinel, the CS Newsletter" />
+<meta name="keywords" content="Computer Science, Newsletter, Department, CS, Carleton Sentinel, Questions, Problems, News, Information" />
+<link rel="alternate" type="application/rss+xml" href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="fullGraphics crumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="hide"><a href="?story_id=614523&amp;textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<a name="top"></a><div id="carlNavWrap" class="standard">
+<div id="carlNav">
+<h1 id="carlHome"><a href="//www.carleton.edu/" title="Carleton College Home"><span></span>Carleton College</a></h1>
+<div class="searchWrap">
+<div id="combinedSearch">
+<div class="finders"><ul><li class="az"><a href="/az/" title="Alphabetical site list">A-Z Guide</a></li><li class="dir"><a href="//www.carleton.edu/campus/directory/" title="Faculty, Staff, &amp; Student Directory">Directory</a></li></ul></div>
+<form action="/search/" method="get">
+<div class="elements">
+<label for="combinedSearchInput" id="combinedSearchInputLabel"><span class="rep"></span>Search<span class="xtr"> people and pages</span></label>
+<input type="text" id="combinedSearchInput" name="keyword" size="14" class="input" />
+<input type="submit" id="combinedSearchSubmit" value="go" class="submit" />
+</div>
+</form>
+</div>
+</div>
+<div id="carlTabs">
+<div id="carlTopics"><ul><li class="home"><a href="//www.carleton.edu/" title="Carleton College home page"><img src="/global_stock/nav/img/home.gif" alt="Home" /></a></li><li class="acad sel"><a href="/academics/" title="Departments, programs, &amp; majors"><img src="/global_stock/nav/img/acad_sel.gif" alt="Academics" /></a></li><li class="life"><a href="/life/" title="Arts, athletics, organizations, and more"><img src="/global_stock/nav/img/life.gif" alt="Campus Life" /></a></li></ul></div><div id="carlAudiences"><ul><li class="prosp"><a href="/admissions/" title="Admissions &amp; other information for prospective students"><img src="/global_stock/nav/img/prosp.gif" alt="Prospective Students" /></a></li><li class="alum"><a href="/alumni/" title="Alumni Gateway"><img src="/global_stock/nav/img/alum.gif" alt="Alumni" /></a></li><li class="facs"><a href="/campus/" title="Faculty/Staff Gateway"><img src="/global_stock/nav/img/facs.gif" alt="Faculty &amp; Staff" /></a></li><li class="stud"><a href="/student/" title="Student Gateway"><img src="/global_stock/nav/img/stud.gif" alt="Students" /></a></li><li class="fam"><a href="/parents/" title="Parent &amp; Family Gateway"><img src="/global_stock/nav/img/fam.gif" alt="Families" /></a></li></ul></div>
+</div>
+</div>
+</div>
+<div id="wrapper" class="fullGraphicsView">
+<div id="breadcrumbs" class="locationBarText">You are here: <a href='http://www.carleton.edu/curricular/index.html' class='locationBarLinks'>Academic Departments</a> &gt; <a href="/curricular/cs/" class="locationBarLinks">Computer Science</a> &gt; <a href="/curricular/cs/news/" class="locationBarLinks">Newsletter</a> &gt; Multitouch Application Contest</div>
+<div class="bannerAndMeat fullGraphics">
+<div class="banner">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bannerTable" summary="The Site Name">
+<tr>
+<td class="bannerCol1">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+</td>
+<td class="bannerCol2">
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="layout">
+<table border="0" cellspacing="0" cellpadding="0" class="layoutTable" summary="The Main Content of Page">
+<tr>
+<td valign="top" class="navigationTD">
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/">Events</a></li><li class="navListItem open current item6"><a href="/curricular/cs/news/"><strong>Newsletter</strong></a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+
+
+<p class="textOnlyLink smallText"><a href="?story_id=614523&amp;textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<div class="navigationSpacer"><img src="/reason_package/reason_4.0/www/ui_images/stp.gif" width="150" height="2" alt="" /></div>
+</td>
+<td valign="top" class="contentTD">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span><a href="http://apps.carleton.edu/curricular/cs/news/">Newsletter: Carleton Sentinel</a></span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="blogDescription">
+<p>&quot;Keeping you in the loop since 2005&quot;</p></div>
+
+
+</div>
+<div class="contentPost">
+
+
+<div id="blog" class="publication">
+<div class="persistent">
+
+<div id="filtering">
+<form method="get" action="?" class="searchForm" >
+<label for="filterSearch1">Search:</label> <input name="search" value="" size="10" class="search" id="filterSearch1" />
+ <input class="submit" name="go" type="submit" value="Go" />
+</form>
+</div>
+<div class="loginlogout logout"><a href="https://apps.carleton.edu/login/"><span class="action">Log In</span></a></div>
+</div>
+<div class="item">
+<div class="fullPost"><div class="primaryContent">
+<h3 class="postTitle">Multitouch Application Contest</h3>
+<div class="date">March 12, 2010</div>
+<div class="text"><p>Enter the SMART Multitouch Application Contest and win a SMART table.  They will also promote the winning application on the SMART website for one year.  Visit the <a href="http://smarttech.com/multitouch">SMART Multitouch Application</a> contest web page for more details.</p></div>
+</div>
+</div></div>
+<div class="back"><div><a href="?page=1">Return to Newsletter: Carleton Sentinel</a></div></div></div>
+
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 15 April 2010</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

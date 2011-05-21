@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Linux Keyboard Interrupts for Pascal, C, and C++ (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Example program of an Linux keyboard interrupt, along with descriptions of functions to use and usefil tips for C, C++, and Pascal." />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Linux Keyboard Interrupts for Pascal, C, and C++</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><h3>Example program: <a href="/curricular/cs/assets/ttyio_test.cpp">ttyio_test.cpp</a></h3>
+<pre>
+/*<br />    <a href="/curricular/cs/assets/ttyio_test.cpp">ttyio_test.cpp</a>:   a simple program that tests the locally written<br />        ttyiofunction library.  For more information about the<br />        Carleton ttyiofunction library contact mtie@carleton.edu.<br />        For information about how to build your own ttyiofunctions<br />        refer to the book<br /><br />            "Advanced C Programming for Displays"<br />                by<br />            Marc J. Rochkind<br /><br />    to compile ttyio_test.cpp:<br />        g++ -o ttyio_test <a href="/curricular/cs/assets/ttyio_test.cpp">ttyio_test.cpp</a> -lttyiofunctions<br /><br />    -mtie 3/27/01<br />*/<br /><br />#include &lt;ttyiofunctions.h&gt;<br />#include &lt;iostream.h&gt;<br /><br />void main()<br />{<br />    char c='z';<br /><br />    //initializes the screen and sets it up to break<br />    inittty();<br />    ttycbreak();<br /><br />    while(c != 'q')  //this is the event loop<br />    {<br />        //if there is a keypress<br />        if( kbhit() )<br />        {<br />            //grab the character<br />            cin &gt;&gt; c;<br /><br />            //display the character<br />            cout &lt;&lt; "the character entered was -" &lt;&lt; c &lt;&lt; "-"&lt;&lt; endl;<br />        }<br />    }<br /><br />    //restore the terminal to normal mode<br />    ttynorm();<br />}
+</pre>
+
+<h3>Functions</h3>
+<p>int <strong>inittty</strong>(void)</p>
+<ul>
+<li>This function must be called before any other function in the ttyio library can be used. It determines which terminal IO is to be associated with. inittty returns 1 on success and 0 on failure, with an error message on stderr.</li></ul>
+<p>int <strong>ttycbreak</strong>(void)</p>
+<ul>
+<li>This function sets the terminal (determined by inittty above) to cbreak mode and prevents automatic echoing of characters received from the keyboard. This allows other functions (such as getch() and kbhit() ) to do their work character-by-character, without the need for carriage-returns in between. This function also sets things up so that a call to read will not wait forever for user input, but rather will return immediately whether there has been keyboard activity or not.</li></ul>
+<p>int <strong>ttynorm</strong>(void)</p>
+<ul>
+<li>This function restores the original terminal settings. It should *definitely* be called before your program exits, or you may notice odd behavior of your terminal (For example, you will not see letters you type. If this happens, simply press enter twice, then type the single word "reset", then press enter again. Your terminal should then behave normally.).</li></ul>
+<p>int <strong>kbhit</strong>(void)</p>
+<ul>
+<li>This function returns 1 if there are character(s) in the terminal’s input queue, otherwise if returns 0. It does not remove any characters from the queue. For Pascal programmers, kbhit returns a boolean.</li></ul>
+<p>char <strong>getch</strong>(void)</p>
+<ul>
+<li>This function attempts to read one character from the terminal's input buffer. It will return the first character in the queue if any characters are present at all, otherwise it will return a null character.</li></ul>
+<p><em>Note: After ttycbreak is called, white space characters such as Tab, Enter, Esc, Space, and Shift can and will mess up your program. Warn the users not to use those keys!</em></p>
+<p><em>Note to Pascal programmers: initty, ttycbreak, and ttynorm are NOT declared as functions in the gpc library. Treat them as procedures.</em></p>
+<p><em>Note: ttyiofunctions is a locally written library for use by Carleton College students and staff. It is unsupported, and not available outside of Carleton College.</em></p></div>
+
+</div>
+<div class="contentPost">
+
+
+<ul class="siblingList">
+<li><a href="../mini_courses/?textonly=1">CS Mini Courses</a></li>
+<li><a href="../introcpp/?textonly=1">Compiling in Linux</a></li>
+<li><a href="../beep_prog/?textonly=1">Beep Program</a></li>
+<li><a href="../makefiles/?textonly=1">Makefiles</a></li>
+<li><strong>Keyboard Interrupts</strong></li>
+<li><a href="../bg_progs/?textonly=1">Running programs in the background</a></li>
+<li><a href="../javascanner/?textonly=1">Scanner class</a></li>
+<li><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li>
+<li><a href="../java_classpath_variable/?textonly=1">Setting your Java CLASSPATH variable</a></li>
+<li><a href="../java_install/?textonly=1">Installing Java 1.6 on your home computer</a></li>
+<li><a href="../python_install/?textonly=1">Installing Python 2.x On Your Home Computer</a></li>
+<li><a href="../PILinstallation/?textonly=1">PIL (Python Imaging Library) for Python 2.x</a></li>
+<li><a href="../Python_26/?textonly=1">Installing Python 3.0 on your home computer</a></li>
+<li><a href="../cygwin_howto/?textonly=1">Installing Cygwin</a></li>
+<li><a href="../tex/?textonly=1">TeX and LaTeX</a></li>
+</ul>
+
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/?textonly=1">Student Employment</a></li><li class="navListItem open item5"><a href="/curricular/cs/resources/source/?textonly=1">Programming Resources and Tools</a><ul class="navList"><li class="navListItem closed item5"><a href="/curricular/cs/resources/source/mini_courses/?textonly=1">CS Mini Courses</a></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/source/introcpp/?textonly=1">Compiling in Linux</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/source/makefiles/?textonly=1">Makefiles</a></li><li class="navListItem open current item8"><strong>Keyboard Interrupts</strong></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/source/bg_progs/?textonly=1">Running programs in the background</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/source/javascanner/?textonly=1">Scanner class</a></li><li class="navListItem closed item11 jump"><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li><li class="navListItem closed item12"><a href="/curricular/cs/resources/source/java_classpath_variable/?textonly=1">Setting your Java CLASSPATH variable</a></li><li class="navListItem closed item13"><a href="/curricular/cs/resources/source/java_install/?textonly=1">Installing Java 1.6 on your home computer</a></li><li class="navListItem closed item14"><a href="/curricular/cs/resources/source/python_install/?textonly=1">Installing Python 2.x On Your Home Computer</a></li><li class="navListItem closed item15"><a href="/curricular/cs/resources/source/Python_26/?textonly=1">Installing Python 3.0 on your home computer</a></li><li class="navListItem closed item16"><a href="/curricular/cs/resources/source/cygwin_howto/?textonly=1">Installing Cygwin</a></li><li class="navListItem closed item17"><a href="/curricular/cs/resources/source/tex/?textonly=1">TeX and LaTeX</a></li></ul></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/?textonly=1">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/?textonly=1">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/?textonly=1">CS Lab Assistant Resources</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/libe/?textonly=1">Periodicals</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/?textonly=1">Links</a></li><li class="navListItem closed item11"><a href="/curricular/cs/resources/graderguidelines/?textonly=1">Grader Guidelines</a></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 9 September 2004</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

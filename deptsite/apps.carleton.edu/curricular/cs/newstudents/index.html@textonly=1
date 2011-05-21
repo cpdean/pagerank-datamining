@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Guide for New Students (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Information for new students." />
+<meta name="keywords" content="Guide to New Students" />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Guide for New Students</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><div class="contentMain" id="pageContent">
+<p>Computer Science studies the computational structures and processes that appear throughout the natural and human worlds. The study of those processes (known as algorithms) can lend insight into the functioning of our brains, the structure of our genes, the mechanisms by which people form communities, and many other questions in a wide range of disciplines. At the same time, an understanding of algorithms and the structure of data can help us create a tremendous variety of useful software tools. Carleton’s computer science curriculum is designed to provide students with a balance between theoretical study and the practical application of theory to the design and construction of software.</p>
+<h3>Can I major in it?</h3>
+<p>Yes, a major in Computer Science is offered, and no prior experience with computers or programming is necessary.&nbsp; Click <a title="Guide to the Computer Science Major" href="//apps.carleton.edu/curricular/cs/major/">here</a> for more information.</p>
+<p><strong>Topics explored:</strong> Algorithms, artificial intelligence, software design, databases, data mining, graphics, security, computer networks, natural language processing, operating systems, social networks, theory of computation, evolutionary computation - these are a sampling of topics covered in our major.&nbsp; For more information, check out the complete listing of <a title="Course Information" href="//apps.carleton.edu/curricular/cs/courses/">CS courses</a>.</p>
+<h3>What course should I take first?</h3>
+<ul>
+<li><strong>The natural place to start</strong> is in CS 108 (Life in the Age of Networks) or in CS 111 (Introduction to Computer Science). CS 111, which is offered every term, requires no previous experience in computer science, is required for the computer science major, and is a prerequisite for all other courses in the department.&nbsp; CS 108 also requires no previous experience in computer science, and provides a more general introduction to the field.</li>
+<li><strong>If you received a score of 3 or better on the Advanced Placement Computer Science A exam</strong>, you should consider enrolling in CS 201 (Data Structures). If you choose this option, on successful completion of CS 201 (grade of C- or better) you will receive credit for CS 111 as well.</li>
+</ul>
+<p>For more information you can review the current <a title="2011-2012 CS Course Guide" href="//apps.carleton.edu/curricular/cs/assets/cscourses201112.pdf">Course Guide</a> from this year.</p>
+</div></div>
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem open current item11"><strong>Guide for New Students</strong></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 21 March 2011</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

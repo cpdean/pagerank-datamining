@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Guide to the CS Major: Requirements (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Lists of required and recommended courses for the major." />
+<meta name="keywords" content="Computer Science, CS, Major, Requirements, Courses, Prerequisites, Classes" />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Guide to the CS Major: Requirements</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<style type="text/css">.catalogEntry { border-top: blue thin solid; }</style>
+<div class="catalogEntry">
+<h2>Computer Science (CS)</h2><a name="block_1122" /><div class="content"><p class="MsoNormal">Chair: Professor Jeffrey R. Ondich<br>
+</p>
+<p class="MsoNormal">Professors: Jack Goldfeather, Jeffrey R. Ondich<br>
+</p>
+<p class="MsoNormal">Associate Professors: Amy Csizmar Dalal, David R. Musicant<br>
+</p>
+<p class="MsoNormal">Assistant Professors: Sherri Goings, David Liben-Nowell</p><p class="MsoNormal">Visiting Associate Professor: Joshua Davis<br>
+</p></div>
+<a name="block_1016" /><div class="content"><p class="MsoNormal">Computer Science studies the computational structures and processes that appear throughout the natural and human worlds. The study of those processes (known as <em>algorithms)</em> can lend insight into the functioning of our brains, the structure of our genes, the mechanisms by which people form communities, and many other questions in a wide range of disciplines. At the same time, an understanding of algorithms and the structure of data can help us create a tremendous variety of useful software tools. Carleton’s computer science curriculum is designed to provide students with a balance between theoretical study and the practical application of theory to the design and construction of software.<br>
+</p>
+<p class="MsoNormal">Since computer science plays a key role in our world, we recommend Introduction to Computer Science (<A HREF="#" ONCLICK="openWin('CS\+111&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 111</A>) for all Carleton students. We also offer introductory-level courses on specific topics, such as Life in the Age of Networks (<A HREF="#" ONCLICK="openWin('CS\+108&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 108</A>).<br>
+</p>
+<p class="MsoNormal">Those who choose to major in computer science find many opportunities following graduation. Carleton Computer Science graduates who pursue employment in the computing industry find jobs in a many different roles and at a wide variety of companies. In addition to graduate programs in computer science, Carleton CS majors seeking further education have pursued graduate study in areas such as bioinformatics, linguistics, cognitive science, and law.<br>
+</p></div>
+<a name="block_977" /><h3>Requirements for a Major</h3>
+<div class="content"><p class="MsoNormal">The course requirements are Mathematics 111; Computer Science 111, 201, 202 (or Mathematics 236), 204, 208, 251, 252, and 254; and two additional courses from among: Computer Science courses numbered 200 or above, Mathematics 311, and Physics 247. Although they are not required for the CS major, we recommend that our students take as many mathematics and statistics courses as possible. In addition, each CS major in the class of 2011 must complete an integrative exercise (<A HREF="#" ONCLICK="openWin('CS\+400&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 400</A>), for the class of 2012 the majors must complete a capstone experience (<A HREF="#" ONCLICK="openWin('CS\+399&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 399</A> and 400): during fall and winter terms of the senior year, the student will participate on a team of four to seven students working on a faculty-specified project. Potential majors should take Computer Science 111, Mathematics 111, and at least one of Computer Science 201, 202, 204, and 208 by the end of the sophomore year.<br>
+</p>
+<p class="MsoNormal">Students contemplating graduate study in computer science should consider taking additional courses in both mathematics (ideally the full Calculus sequence plus Mathematics 215 and 232) and computer science. Those interested in computer engineering should consider taking physics courses through Electricity and Magnetism and Electronics.<br>
+</p>
+<p class="MsoNormal">A guide for majors is available on the Computer Science Web site.<br>
+</p></div>
+<a name="block_978" /><h3>Computer Science Courses</h3>
+<div class="content"><p><a name="course_3516" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+108&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 108</A>.  Life in the Age of Networks</B>
+This course investigates how the social, technological, and natural worlds are connected, and how the study of networks sheds light on these connections. A network is a collection of entities linked by some relationship: people connected by friendships (e.g. Facebook); web pages connected by hyperlinks; species connected by the predator-prey relationships. We will emphasize the efficient synthesis and processing of large amounts of data in asking questions about networks in a variety of fields. Topics include: how Google works; "six degrees of separation"; species extinction; the spread of fads through society. No background in computer science or programming is required or expected. No prerequisites. Students who have received credit for Computer Science 111 or above are not eligible to enroll in Computer Science 108. <i>6 cr., MS; FSR, Offered in alternate years. Not offered in 2010-2011.</i></p></div> <a name="course_582" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+111&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 111</A>. Introduction to Computer Science</B>
+This course will introduce you to computer programming and the design of algorithms. By writing programs to solve problems in areas such as image processing, text processing, and simple games, you will learn about recursive and iterative algorithms, complexity analysis, graphics, data representation, software engineering, and object-oriented design. No previous programming experience is necessary. Students who have received credit for Computer Science 201 or above are not eligible to enroll in Computer Science 111. No prerequisites. <i>6 cr., MS; FSR, QRE, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/F2010?CS%FE111">Fall</A>,<A HREF="http://www.carleton.edu/cgi-bin/enroll/full/W2011?CS%FE111">Winter</A>,<A HREF="http://www.carleton.edu/cgi-bin/enroll/full/S2011?CS%FE111">Spring</A></i>&#151;<B>Staff</B>
+</p></div> <a name="course_583" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+201&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 201</A>. Data Structures</B>
+Think back to your favorite assignment from Introduction to Computer Science. Did you ever get the feeling that "there has to be a better/smarter way to do this problem?" The Data Structures course is all about how to store information intelligently and access it efficiently. How can Google take your query, compare it to billions of web pages, and return the answer in less than one second? How can one store information so as to balance the competing needs for fast data retrieval and fast data modification? To help us answer questions like these, we will analyze and implement stacks, queues, trees, linked lists, graphs and hash tables. Students who have received credit for a course for which Computer Science 201 is a prerequisite are not eligible to enroll in Computer Science 201. Prerequisite: Computer Science 111 or consent of the instructor. <i>6 cr., MS; FSR, QRE, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/F2010?CS%FE201">Fall</A>,<A HREF="http://www.carleton.edu/cgi-bin/enroll/full/W2011?CS%FE201">Winter</A>,<A HREF="http://www.carleton.edu/cgi-bin/enroll/full/S2011?CS%FE201">Spring</A></i>&#151;<B>Staff</B>
+</p></div> <a name="course_4284" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+202&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 202</A>. Mathematics of Computer Science</B>
+This course introduces some of the formal tools of computer science, using a variety of applications as a vehicle. You'll learn how to encode data so that when you scratch the back of a DVD, it still plays just fine; how to distribute "shares" of your floor's PIN so that any five of you can withdraw money from the floor bank account (but no four of you can); how to play chess; and more. Topics that we'll explore along the way include: logic and proofs, number theory, elementary complexity theory and recurrence relations, basic probability, counting techniques, and graphs. <em>Prerequisite:</em> Computer Science 111 and Mathematics 111; or permission of instructor. <i>6 cr., MS; FSR, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/W2011?CS%FE202">Winter</A></i>&#151;<B>D. Liben-Nowell</B>
+</p></div> <a name="course_590" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+204&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 204</A>. Software Design</B>
+It’s easy to write a mediocre computer program, and lots of people do it. Good programs are quite a bit harder to write, and are correspondingly less common. In this course, we will study techniques, tools, and habits that will improve your chances of writing good software. While working on several medium-sized programming projects, we will investigate code construction techniques, debugging and profiling tools, testing methodologies, UML, principles of object-oriented design, design patterns, and user interface design. Prerequisite: Computer Science 111 or consent of the instructor. <i>6 cr., MS; FSR, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/F2010?CS%FE204">Fall</A>,<A HREF="http://www.carleton.edu/cgi-bin/enroll/full/S2011?CS%FE204">Spring</A></i>&#151;<B>A. Csizmar Dalal, J. Ondich</B>
+</p></div> <a name="course_3846" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+208&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 208</A>. Computer Organization and Architecture</B>
+Computer processors are extraordinarily complex systems. The fact that they work at all, let alone as reliably as they do, is a monumental achievement of human collaboration. In this course, we will study the structure of computer processors, with attention to digital logic, assembly language, performance evaluation, computer arithmetic, data paths and control, pipelining, and memory hierarchies. Prerequisites: Computer Science 111 or consent of the instructor. <i>6 cr., MS; FSR, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/F2010?CS%FE208">Fall</A></i>&#151;<B>A. Csizmar Dalal</B>
+</p></div> <a name="course_3779" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+231&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 231</A>. Computer and Network Security</B>
+Hackers, phishers, and spammers---at best they annoy us, at worst they disrupt communication systems, steal identities, bring down corporations, and compromise sensitive systems. In this course, we'll study various aspects of computer and network security, focusing mainly on the technical aspects as well as the social and cultural costs of providing (or not providing) security. Topics include cryptography, authentication and identification schemes, intrusion detection, viruses and worms, spam prevention, firewalls, denial of service, electronic commerce, privacy, and usability. Prerequisite: Computer Science 201, 202 or 204 or 208. <i>6 cr., MS; FSR, Not offered in 2010-2011.</i></p></div> <a name="course_4275" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+251&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 251</A>. Programming Languages</B>
+What makes a programming language "like Python" or "like Java"? This course will look past superficial properties (like indentation) and into the soul of programming languages. We will explore a variety of topics in programming language construction and design: syntax and semantics, mechanisms for parameter passing, typing, scoping, and control structures. Students will expand their programming experience to include other programming paradigms, including functional languages like Scheme and ML. <em>Prerequisite:</em> Computer Science 201 or permission of instructor. <i>6 cr., MS; FSR, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/F2010?CS%FE251">Fall</A></i>&#151;<B>D. Liben-Nowell</B>
+</p></div> <a name="course_588" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+252&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 252</A>. Algorithms</B>
+A course on techniques used in the design and analysis of efficient algorithms. We will cover several major algorithmic design paradigms (greedy algorithms, dynamic programming, divide and conquer, and network flow); applications of those techniques to a variety of domains (natural language processing, economics, computational biology, and data mining, for example); and computational complexity, particularly NP-completeness, including how to cope algorithmically when confronted with intractable problems. Prerequisites: Computer Science 201 and either Computer Science 202 or Mathematics 236. <i>6 cr., MS; FSR, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/W2011?CS%FE252">Winter</A></i>&#151;<B>D. Liben-Nowell</B>
+</p></div> <a name="course_3663" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+254&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 254</A>. Automata and Computability</B>
+An introduction to the theory of computation, emphasizing an understanding of what problems can and cannot be solved by computers. Topics include formal models of computation, including finite-state automata, pushdown automata, and Turing machines; formal languages, including regular expressions and context-free grammars; and computability and uncomputability. Time permitting, we will discuss computational and mathematical applications, like parsing and Godel's incompleteness theorem. Prerequisites: Computer Science 201; Computer Science 202 or Mathematics 236. <i>6 cr., MS; FSR, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/S2011?CS%FE254">Spring</A></i>&#151;<B>J. Ondich</B>
+</p></div> <a name="course_592" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+311&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 311</A>. Computer Graphics</B>
+The raster graphics representation of 2- and 3- dimensional images. Topics include frame buffers, data structures for image storage, geometric transformations, hidden surface algorithms, raytracing, splines, and lighting models. Prerequisites: Computer Science 201, Mathematics 232 or consent of the instructor. <i>6 cr., MS; FSR, Offered in alternate years. <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/S2011?CS%FE311">Spring</A></i>&#151;<B>J. Goldfeather</B>
+</p></div> <a name="course_3664" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+321&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 321</A>. Artificial Intelligence</B>
+How can we design computer systems with behavior that seems "intelligent?" This course will examine a number of different approaches to this question, including intelligent agents (simulated with a robot), machine learning (including neural networks and genetic algorithms), and reasoning with uncertainty. We will also examine search methods, with an interest in computer game playing. The coursework is a mix of problem solving and computer programming based on the ideas that we discuss. Prerequisite: Computer Science 201 or consent of the instructor. <i>6 cr., MS; FSR, Offered in alternate years. Not offered in 2010-2011.</i></p></div> <a name="course_3348" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+322&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 322</A>. Natural Language Processing</B>
+Computers are poor conversationalists, despite decades of attempts to change that fact. This course will provide an overview of the computational techniques developed in the attempt to enable computers to interpret and respond appropriately to ideas expressed using natural languages (such as English or French) as opposed to formal languages (such as C++ or Lisp). Topics in this course will include parsing, semantic analysis, machine translation, dialogue systems, and statistical methods in speech recognition. Prerequisites: Computer Science 201 and 202 or permission of the instructor. <i>6 cr., MS; FSR, Offered in alternate years. <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/F2010?CS%FE322">Fall</A></i>&#151;<B>J. Ondich</B>
+</p></div> <a name="course_2883" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+324&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 324</A>. Data Mining</B>
+How does Google understand what it is you're looking for? How does Amazon.com figure out what items you might want to buy? These questions and others are part of machine learning and data mining, two highly related fields at the crossroads of artificial intelligence, database systems, and statistics. Machine learning concerns itself with getting a computer to learn or discover patterns, whereas data mining focuses this task on large databases. Much of the material will be presented through primary source research papers, and the content will include techniques such as classification, clustering, association rules, web mining, collaborative filtering, and others. Prerequisite: Computer Science 201 or consent of the instructor. <i>6 cr., MS; FSR, QRE, Offered in alternate years. <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/S2011?CS%FE324">Spring</A></i>&#151;<B>D. Musicant</B>
+</p></div> <a name="course_4273" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+331&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 331</A>. Computer Networks</B>
+The Internet is composed of a large number of heterogeneous, independently-operating computer networks that work together to transport all sorts of data to points all over the world. The fact that it does this so well given its complexity is a minor miracle. In this class, we'll study the structure of these individual networks and of the Internet, and figure out how this "magic" takes place. Topics include TCP/IP, protocols and their implementations, routing, security, network architecture, DNS, and emerging applications and technologies such as peer-to-peer networking, WiFi, and WiMax. <em>Prerequisite:</em> <A HREF="#" ONCLICK="openWin('CS\+201&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 201</A> or consent of instructor. <i>6 cr., MS; FSR, Offered in alternate years. <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/F2010?CS%FE331">Fall</A></i>&#151;<B>A. Csizmar Dalal</B>
+</p></div> <a name="course_591" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+332&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 332</A>. Operating Systems</B>
+The thing that we call a computer is actually a complex collection of interacting devices. To ensure that these devices work together effectively without excessive human intervention, people have developed operating systems software that coordinates the behavior of the devices and gives programmers ways to control those devices. This course will address the fundamental problems that operating systems need to solve, including those concerned with process management, file organization, memory management, and input/output control. We will also study the structure of the Linux operating system. Prerequisites: Computer Science 208 or consent of the instructor. <i>6 cr., MS; FSR, Offered in alternate years. Not offered in 2010-2011.</i></p></div> <a name="course_595" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+334&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 334</A>. Database Systems</B>
+Database systems are used in almost every aspect of computing, from storing data for websites to maintaining financial information for large corporations. Intrinsically, what is a database system and how does it work? This course takes a two-pronged approach to studying database systems. From a systems perspective, we will look at the low-level details of how a database system works internally, studying such topics as file organization, indexing, sorting techniques, and query optimization. From a theory perspective, we will examine the fundamental ideas behind database systems, such as normal forms and relational algebra. Prerequisite: Computer Science 201 or consent of the instructor. <i>6 cr., MS; FSR, Offered in alternate years. Not offered in 2010-2011.</i></p></div> <a name="course_4380" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+341&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 341</A>. Cryptography</B>
+If you want to send information that only your intended recipient can understand, you need cryptography, the art of securing messages. Cryptography is at the heart of applications like on-line commerce, password-protected computer accounts, secure wireless networks, and cash withdrawal from automatic teller machines. This course will focus on these and other applications to motivate our study of the mathematics, protocols, and history of cryptography and cryptanalysis. <em>Prerequisite:</em> Computer Science 201 and either Computer Science 202 or Mathematics 236, or permission of the instructor. <i>6 cr., MS; FSR, QRE, Offered in alternate years. <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/W2011?CS%FE341">Winter</A></i>&#151;<B>J. Ondich</B>
+</p></div> <a name="course_4264" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+352&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 352</A>. Advanced Algorithms</B>
+A second course on designing and analyzing efficient algorithms to solve computational problems. We will survey some algorithmic design techniques that apply broadly throughout computer science, including discussion of wide-ranging applications. A sampling of potential topics: approximation algorithms (can we efficiently compute near-optimal solutions even when finding exact solutions is computationally intractable?); randomized algorithms (does flipping coins help in designing faster/simpler algorithms?); online algorithms (how do we analyze an algorithm that needs to make decisions before the entire input arrives?); advanced data structures; complexity theory. As time and interest permit, we will mix recently published algorithmic papers with classical results. <em>Prerequisite:</em> Computer Science 252 or permission of instructor. <i>6 cr., MS; FSR, Offered in alternate years. <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/S2011?CS%FE352">Spring</A></i>&#151;<B>D. Liben-Nowell</B>
+</p></div> <a name="course_4243" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+361&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 361</A>. Evolutionary Computing and Artificial Life</B>
+An introduction to evolutionary computation and artificial life, with a special emphasis on the two way flow of ideas between evolutionary biology and computer science. Topics will include the basic principles of biological evolution, experimental evolution techniques, and the application of evolutionary computation principles to solve real problems. All students will be expected to complete and present a term project exploring an open question in evolutionary computation. <em>Prerequisite:</em> Computer Science 111; 201 or 204 or Biology 125. <i>6 cr., MS; FSR, Offered in alternate years. <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/W2011?CS%FE361">Winter</A></i>&#151;<B>S. Goings</B>
+</p></div> <a name="course_4411" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+399&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 399</A>. Senior Seminar</B>
+As part of their senior capstone experience, majors will work together in teams (typically four to seven students per team) on faculty-specified topics to design and implement the first stage of a project. Required of all senior majors. <em>Prerequisite:</em> Senior standing, Mathematics 121, Computer Science 111, 201, 202 (or Mathematics 236); one course from among Computer Science 204 or 208; two courses from among Computer Science 251, 252 and 254; one course from among Computer Science courses numbered 260. <i>3 cr., S/CR/NC, ND; NE, Not offered in 2010-2011.</i></p></div> <a name="course_4585" /><div class="courseDescription"><P><B><A HREF="#" ONCLICK="openWin('CS\+400&year=2010'); return false;" ONMOUSEOVER="status='View course description'; return true;">CS 400</A>. Integrative Exercise</B>
+Senior Computer Science majors work in teams (typically four to seven students per team) on faculty-specified topics. Required of all senior majors. Prerequisite: Senior standing, Mathematics 121, Computer Science 111, 201, 202 (or Mathematics 236); one course from among Computer Science 204 or 208; two courses from among Computer Science 251, 252 and 254; one course from among Computer Science courses numbered 260 or above or Mathematics 311. <i>6 cr., S/NC, ND; NE, <A HREF="http://www.carleton.edu/cgi-bin/enroll/full/F2010?CS%FE400">Fall</A>,<A HREF="http://www.carleton.edu/cgi-bin/enroll/full/W2011?CS%FE400">Winter</A></i>&#151;<B>Staff</B>
+</p></div><br>
+</p></div>
+<a name="block_979" /><h3>Other Courses Pertinent to Computer Science:</h3>
+<div id="relatedCourses"><div class="content"><p>Physics 247 Digital Electronics<br><p>
+Physics 343 Electronics<br>
+</p></div>
+</div></div>
+
+
+</div>
+<div class="contentPost">
+
+
+<ul class="siblingList">
+<li><a href="../prep/?textonly=1">Preparation</a></li>
+<li><strong>Requirements</strong></li>
+<li><a href="../progress/?textonly=1">Progress</a></li>
+<li><a href="../comps/?textonly=1">Comps</a></li>
+<li><a href="../activities/?textonly=1">Activities</a></li>
+</ul>
+
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem open item3"><a href="/curricular/cs/major/?textonly=1">The Major</a><ul class="navList"><li class="navListItem closed item3"><a href="/curricular/cs/major/prep/?textonly=1">Preparation</a></li><li class="navListItem open current item4"><strong>Requirements</strong></li><li class="navListItem closed item5"><a href="/curricular/cs/major/progress/?textonly=1">Progress</a></li><li class="navListItem closed item6"><a href="/curricular/cs/major/comps/?textonly=1">Comps</a></li><li class="navListItem closed item7"><a href="/curricular/cs/major/activities/?textonly=1">Activities</a></li></ul></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 1 September 2004</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

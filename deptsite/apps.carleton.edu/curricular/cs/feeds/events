@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+<title>Carleton College Computer Science Events</title>
+<description>Events from Computer Science</description>
+<link>http://apps.carleton.edu/curricular/cs/events/</link>
+<generator>Reason</generator>
+<copyright>Carleton College, 2011</copyright>
+
+<item>
+<title>May 27 - Computer Science Department Picnic</title>
+<description>Jeff Ondich's house, 5:30 pm</description>
+<link>http://apps.carleton.edu/curricular/cs/events/?event_id=732364&amp;date=2011-05-27</link>
+</item>
+
+</channel>
+</rss>

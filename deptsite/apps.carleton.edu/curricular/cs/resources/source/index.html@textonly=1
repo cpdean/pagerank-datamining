@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Programming Resources, Tools, and How-Tos (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Programming resources, tools, tutorials, mini-labs, commands overviews and individual class resources." />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Programming Resources, Tools, and How-Tos</span></h2>
+
+</div>
+<div class="contentPost">
+
+
+<ul class="childrenList">
+<li class="number1 odd"><h4><a href="mini_courses/?textonly=1" title="Mini Courses">CS Mini Courses</a></h4>
+<div class="childDesc">These Mini Courses are introductions to a variety of programming languages; they are intended for those people who already know a programming language and who are interested in learning something new.</div></li>
+<li class="number2 even"><h4><a href="introcpp/?textonly=1" title="Writing and Compiling programs in Linux">Compiling in Linux</a></h4>
+<div class="childDesc">How to write and compile a C++ program on Linux using g++.</div></li>
+<li class="number3 odd"><h4><a href="beep_prog/?textonly=1" title="How to add a beep to your C++ program">Beep Program</a></h4>
+<div class="childDesc">Sample program written in C++ that makes your computer beep.</div></li>
+<li class="number4 even"><h4><a href="makefiles/?textonly=1" title="Using Makefiles">Makefiles</a></h4>
+<div class="childDesc">Guidelines for using Makefiles, with example code included.</div></li>
+<li class="number5 odd"><h4><a href="keyb_int/?textonly=1" title="Linux Keyboard Interrupts for Pascal, C, and C++">Keyboard Interrupts</a></h4>
+<div class="childDesc">Example program of an Linux keyboard interrupt, along with descriptions of functions to use and usefil tips for C, C++, and Pascal.</div></li>
+<li class="number6 even"><h4><a href="bg_progs/?textonly=1">Running programs in the background</a></h4>
+<div class="childDesc">General tips and hints on running programs on prism more efficiently.</div></li>
+<li class="number7 odd"><h4><a href="javascanner/?textonly=1" title="Creating an instance of the Scanner class">Scanner class</a></h4>
+<div class="childDesc">How to create an instance of Java's Scanner class.</div></li>
+<li class="number8 even"><h4><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></h4>
+<div class="childDesc">Various documentation, including the <a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/api/index.html">Java API</a>.</div></li>
+<li class="number9 odd"><h4><a href="java_classpath_variable/?textonly=1">Setting your Java CLASSPATH variable</a></h4>
+<div class="childDesc">How to set your Java CLASSPATH variable.</div></li>
+<li class="number10 even"><h4><a href="java_install/?textonly=1">Installing Java 1.6 on your home computer</a></h4>
+<div class="childDesc">How to install Java 1.6 on your personal computer.</div></li>
+<li class="number11 odd"><h4><a href="python_install/?textonly=1">Installing Python 2.x On Your Home Computer</a></h4></li>
+<li class="number12 even"><h4><a href="PILinstallation/?textonly=1">PIL (Python Imaging Library) for Python 2.x</a></h4>
+<div class="childDesc">PIL (Python Imaging Library) is used in many of the intro CS courses. This page describes how to install it for Windows and Mac OS. NOTE: PIL is NOT available for Python 3.</div></li>
+<li class="number13 odd"><h4><a href="Python_26/?textonly=1">Installing Python 3.0 on your home computer</a></h4>
+<div class="childDesc">Instructions for installing Python 3 on your home computer.</div></li>
+<li class="number14 even"><h4><a href="cygwin_howto/?textonly=1" title="Installing Cygwin on your home computer (Windows only)">Installing Cygwin</a></h4>
+<div class="childDesc">How to install cygwin on your home pc.</div></li>
+<li class="number15 odd"><h4><a href="tex/?textonly=1">TeX and LaTeX</a></h4>
+<div class="childDesc">How to install TeX and LaTeX on your home computer.</div></li>
+</ul>
+
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/?textonly=1">Student Employment</a></li><li class="navListItem open current item5"><strong>Programming Resources and Tools</strong><ul class="navList"><li class="navListItem closed item5"><a href="/curricular/cs/resources/source/mini_courses/?textonly=1">CS Mini Courses</a></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/source/introcpp/?textonly=1">Compiling in Linux</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/source/makefiles/?textonly=1">Makefiles</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/source/keyb_int/?textonly=1">Keyboard Interrupts</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/source/bg_progs/?textonly=1">Running programs in the background</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/source/javascanner/?textonly=1">Scanner class</a></li><li class="navListItem closed item11 jump"><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li><li class="navListItem closed item12"><a href="/curricular/cs/resources/source/java_classpath_variable/?textonly=1">Setting your Java CLASSPATH variable</a></li><li class="navListItem closed item13"><a href="/curricular/cs/resources/source/java_install/?textonly=1">Installing Java 1.6 on your home computer</a></li><li class="navListItem closed item14"><a href="/curricular/cs/resources/source/python_install/?textonly=1">Installing Python 2.x On Your Home Computer</a></li><li class="navListItem closed item15"><a href="/curricular/cs/resources/source/Python_26/?textonly=1">Installing Python 3.0 on your home computer</a></li><li class="navListItem closed item16"><a href="/curricular/cs/resources/source/cygwin_howto/?textonly=1">Installing Cygwin</a></li><li class="navListItem closed item17"><a href="/curricular/cs/resources/source/tex/?textonly=1">TeX and LaTeX</a></li></ul></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/?textonly=1">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/?textonly=1">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/?textonly=1">CS Lab Assistant Resources</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/libe/?textonly=1">Periodicals</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/?textonly=1">Links</a></li><li class="navListItem closed item11"><a href="/curricular/cs/resources/graderguidelines/?textonly=1">Grader Guidelines</a></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 29 March 2011</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

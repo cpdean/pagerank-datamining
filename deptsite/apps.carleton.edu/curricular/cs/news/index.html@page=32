@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Newsletter: Carleton Sentinel</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/publication/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Carleton Sentinel, the CS Newsletter" />
+<meta name="keywords" content="Computer Science, Newsletter, Department, CS, Carleton Sentinel, Questions, Problems, News, Information" />
+<link rel="alternate" type="application/rss+xml" href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="fullGraphics crumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="hide"><a href="?page=32&amp;textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<a name="top"></a><div id="carlNavWrap" class="standard">
+<div id="carlNav">
+<h1 id="carlHome"><a href="//www.carleton.edu/" title="Carleton College Home"><span></span>Carleton College</a></h1>
+<div class="searchWrap">
+<div id="combinedSearch">
+<div class="finders"><ul><li class="az"><a href="/az/" title="Alphabetical site list">A-Z Guide</a></li><li class="dir"><a href="//www.carleton.edu/campus/directory/" title="Faculty, Staff, &amp; Student Directory">Directory</a></li></ul></div>
+<form action="/search/" method="get">
+<div class="elements">
+<label for="combinedSearchInput" id="combinedSearchInputLabel"><span class="rep"></span>Search<span class="xtr"> people and pages</span></label>
+<input type="text" id="combinedSearchInput" name="keyword" size="14" class="input" />
+<input type="submit" id="combinedSearchSubmit" value="go" class="submit" />
+</div>
+</form>
+</div>
+</div>
+<div id="carlTabs">
+<div id="carlTopics"><ul><li class="home"><a href="//www.carleton.edu/" title="Carleton College home page"><img src="/global_stock/nav/img/home.gif" alt="Home" /></a></li><li class="acad sel"><a href="/academics/" title="Departments, programs, &amp; majors"><img src="/global_stock/nav/img/acad_sel.gif" alt="Academics" /></a></li><li class="life"><a href="/life/" title="Arts, athletics, organizations, and more"><img src="/global_stock/nav/img/life.gif" alt="Campus Life" /></a></li></ul></div><div id="carlAudiences"><ul><li class="prosp"><a href="/admissions/" title="Admissions &amp; other information for prospective students"><img src="/global_stock/nav/img/prosp.gif" alt="Prospective Students" /></a></li><li class="alum"><a href="/alumni/" title="Alumni Gateway"><img src="/global_stock/nav/img/alum.gif" alt="Alumni" /></a></li><li class="facs"><a href="/campus/" title="Faculty/Staff Gateway"><img src="/global_stock/nav/img/facs.gif" alt="Faculty &amp; Staff" /></a></li><li class="stud"><a href="/student/" title="Student Gateway"><img src="/global_stock/nav/img/stud.gif" alt="Students" /></a></li><li class="fam"><a href="/parents/" title="Parent &amp; Family Gateway"><img src="/global_stock/nav/img/fam.gif" alt="Families" /></a></li></ul></div>
+</div>
+</div>
+</div>
+<div id="wrapper" class="fullGraphicsView">
+<div id="breadcrumbs" class="locationBarText">You are here: <a href='http://www.carleton.edu/curricular/index.html' class='locationBarLinks'>Academic Departments</a> &gt; <a href="/curricular/cs/" class="locationBarLinks">Computer Science</a> &gt; Newsletter</div>
+<div class="bannerAndMeat fullGraphics">
+<div class="banner">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bannerTable" summary="The Site Name">
+<tr>
+<td class="bannerCol1">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+</td>
+<td class="bannerCol2">
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="layout">
+<table border="0" cellspacing="0" cellpadding="0" class="layoutTable" summary="The Main Content of Page">
+<tr>
+<td valign="top" class="navigationTD">
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/">Events</a></li><li class="navListItem open current item6"><strong>Newsletter</strong></li><li class="navListItem closed item7"><a href="/curricular/cs/students/">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+
+
+<p class="textOnlyLink smallText"><a href="?page=32&amp;textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<div class="navigationSpacer"><img src="/reason_package/reason_4.0/www/ui_images/stp.gif" width="150" height="2" alt="" /></div>
+</td>
+<td valign="top" class="contentTD">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Newsletter: Carleton Sentinel</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="blogDescription">
+<p>&quot;Keeping you in the loop since 2005&quot;</p></div>
+
+
+</div>
+<div class="contentPost">
+
+
+<div id="blog" class="publication">
+<div class="persistent">
+
+<div id="filtering">
+<form method="get" action="?" class="searchForm" >
+<label for="filterSearch1">Search:</label> <input name="search" value="" size="10" class="search" id="filterSearch1" />
+ <input class="submit" name="go" type="submit" value="Go" />
+</form>
+</div>
+<div class="loginlogout logout"><a href="https://apps.carleton.edu/login/"><span class="action">Log In</span></a></div>
+</div>
+<div class="moduleNav">
+<div class="pagination above"><a href="?page=31" title="Newer" class="previous">&lt;&lt; Newer</a> <span class="pages"> <a href="?page=1" title="Page 1">1</a> … <a href="?page=27" title="Page 27">27</a> <a href="?page=28" title="Page 28">28</a> <a href="?page=29" title="Page 29">29</a> <a href="?page=30" title="Page 30">30</a> <a href="?page=31" title="Page 31">31</a> <strong>32</strong> <a href="?page=33" title="Page 33">33</a> </span> <a href="?page=33" title="Older" class="next">Older &gt;&gt;</a></div>
+<ul class="posts">
+<li class="post"><h4 class="title"><a href="?story_id=157730">Amazon.com Interviewing on Campus</a></h4>
+<div class="date">October 25, 2005</div>
+<div class="desc"><p>Amazon.com is going to be doing on-campus interviews for graduating seniors. The deadline for getting your resumes in to the career center is Wednesday, November 2; the interviews themselves will be on Friday, November 11. Click above for more information.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=157730">Read more of &#8220;Amazon.com Interviewing on Campus&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=157730">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=156994">Information Session about Microsoft</a></h4>
+<div class="date">October 21, 2005</div>
+<div class="desc"><p><strong>Wednesday, October 26, 4-5pm, in CMC 206.</strong> Remember computer science major Ben Anderson (class '05)? Ben is now employed with Microsoft and is on the Visual C++ team. Ben will be on campus doing an information session for our majors and potential majors. He'll talk about available internships and full-time jobs, and what sorts of positions are open on the Visual C++ team. He also has offered to forward students' resumes through to Microsoft. Come and hear what Ben has to say! Refreshments will be served.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=156994">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=156991">Information Session about Intel</a></h4>
+<div class="date">October 21, 2005</div>
+<div class="desc"><p><strong>Monday, October 24, 3-4pm, in CMC 206.</strong> Ray Bunkofske (class of '81) from Intel will be on campus and will be doing an information session for our majors (and potential majors). Come and learn more about career opportunities at Intel! The Career Center is cosponsoring this event, and refreshments will be served.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=156991">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=155783">Winter Term Course Descriptions</a></h4>
+<div class="date">October 17, 2005</div>
+<div class="desc"><p>It may seem a bit early to be thinking about winter term, but Advising Days start on Monday, October 24,</p>
+and registration won’t be far behind—which is why we thought you might enjoy having descriptions<br />
+of many of our course offerings.</div>
+<ul class="links">
+<li class="more"><a href="?story_id=155783">Read more of &#8220;Winter Term Course Descriptions&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=155783">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=154501">Roundtable discussion with Jawad Khaki, Microsoft VP</a></h4>
+<div class="date">October 11, 2005</div>
+<div class="desc"><p><strong>Friday, October 14, 3:30pm-4:30pm, in CMC 206.</strong></p>
+<p>Join the Computer Science program and the Career Center for a roundtable discussion with Jawad Khaki, Corporate Vice President of Microsoft Corporation (and Friday's convocation speaker). Khaki will be on hand to answer any questions you may have about the state of the field, what Microsoft is up to these days, what it's like to have a career in computer science, etc. From his bio: "Khaki grew up in rural Tanzania and was educated and trained as a computer engineer in London. He spent his early career as a hardware design engineer at GEC Computers Ltd. in Great Britain. In his 20s, he moved to the United States with his wife, two children, eight suitcases and five hundred dollars. Twenty years later, Khaki has over 700 patents filed under his management and he has contributed greatly to the development of Windows software, including the addition of dial-up and wireless networking and broadband infrastructure." Please join us for what will no doubt be an interesting and informative discussion! Refreshments will be served.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=154501">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=154497">Pre-Midterm Break</a></h4>
+<div class="date">October 11, 2005</div>
+<div class="desc"><p><strong>Thursday, October 13, 2-3pm, in CMC 319.</strong> Week 5 getting you down? Too many programs and exams due, too much stress, too little sleep? Well, we can't do anything about your workload, but we can help your sweet tooth (and social life)! Join your fellow Math and CS majors for a middle-of-the-day break for milk and cookies! Stop in for a few minutes or a little while and reconnect with your classmates and professors.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=154497">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=151828">Career Talk: Human Factors and Human Computer Interaction</a></h4>
+<div class="date">October 4, 2005</div>
+<div class="desc"><p>Carleton alum Kenneth Allendoerfer (psychology major '93) will be talking to on campus about the fields of human factors and human-computer interaction. Kenneth is currently an engineering research psychologist for the Federal Aviation Administration, andstudies air traffic controllers in their "natural habitat" to help design new equipment and work processes for them. Human factors is an area of psychology that can benefit considerably from expertise in computer science, since it considers how to design technology that interacts well with people. The event will be on Friday, October 24, from 7-8 pm in Hill Lounge at Sayles-Hill, and is being organized by the Carleton Career Center (co-sponsored by both our deparment and the Department of Psychology).</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=151828">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=151748">University of Minnesota Technology Open House</a></h4>
+<div class="date">October 4, 2005</div>
+<div class="desc"><p>The Department of Computer Science and Engineering at the University of Minnesota, Twin Cities, will be hosting its biennial Open House/Technology Forum on Friday, October 7. The full<br />
+program can be found at <a class="moz-txt-link-freetext" href="http://www.cs.umn.edu/industry/open-house/schedule.php">http://www.cs.umn.edu/industry/open-house/schedule.php</a>. The purpose of the Open House is to showcase faculty research and computer-related technologies developed regionally. It includes poster presentations, demos, panels, and key note speakers. Dan Boley (Graduate Admissions Chair) and Jon Weissman (Director of Graduate Studies) have invited a small number of Carleton seniors considering graduate programs in Computer Science to attend. Specifically, they suggest that this would be an opportunity for prospective students to learn about graduate school in general and their program in particular. There will be a special luncheon for students to talk about graduate school with other graduate students, as well as talk about the program. If you're interested in attending, contact Georganne Tolaas (tolaas@cs.umn.edu) and indicate that you're responding to the invitation that was sent to our department.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=151748">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=150982">Epic Systems Hiring on Campus</a></h4>
+<div class="date">September 30, 2005</div>
+<div class="desc"><pre wrap="">
+Epic Systems, based in Madison, WI, is seeking candidates for three<br />
+positions:
+</pre>
+<ul>
+<li>Software Developer</li>
+<li>Technical Services</li>
+<li>Project Manager</li>
+</ul>
+<pre wrap="">
+<br />
+The deadline to apply for interviews is Sunday, October 2, 2005.  To apply, go to:
+</pre>
+<pre wrap="">
+<a class="moz-txt-link-freetext" href="http://carleton.erecruiting.com/er/security/login.jsp">http://carleton.erecruiting.com/er/security/login.jsp</a>.
+</pre>
+<pre wrap="">
+Log in, and upload your resume to the Documents section.  Then do an Employer search for Epic, click on Jobs and follow the instructions.  No cover letter is required, and the interviews themselves will be conducted on-campus on October 11, 2005.  Epic has hired a number of Carls over time... check out the online alumni directory for a list!
+</pre></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=150982">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=140506">Computer Society International Design Competition</a></h4>
+<div class="date">September 23, 2005</div>
+<div class="desc"><p>The goal of the Seventh Annual Computer Society International Design Competition (CSIDC) is to advance excellence in education by having student teams design and implement computer-based solutions to real-world problems. The theme of this year's CSIDC is <strong>Preserving, Protecting and Enhancing the Environment.</strong> Teams participating in CSIDC 2006 are invited to design and construct a computer-based system that solves a problem of the team's own choosing. A team must select a problem of importance to society; for example, a system that minimizes the use of energy by an automobile.Teams taking part in CSIDC 2006 are encouraged to take a multidisciplinary approach to problem solving, and not all members of the team need be computer science undergraduates. Want to learn more? Visit <a href="http://www.computer.org/csidc">http://www.computer.org/csidc</a>. (This is entirely different from the ACM Programming Contest.)</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=140506">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=137074">Programming Contest Kickoff Meeting</a></h4>
+<div class="date">September 15, 2005</div>
+<div class="desc"><p>Once again, Carleton will be assembling teams of students to participate in the ACM Programming Contest. There will be an informational / kickoff meeting on Wednesday, September 21, at 4:30 pm in CMC 319. Click above for more information.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=137074">Read more of &#8220;Programming Contest Kickoff Meeting&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=137074">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=137068">Computing Job Opportunity on Campus</a></h4>
+<div class="date">September 15, 2005</div>
+<div class="desc"><p>From Scott Carpenter, Professor of French:</p>
+<p>Carl Weiner (History) and I have been involved in a project called "Esternay," located at <a href="http://esternay.carleton.edu/.">http://esternay.carleton.edu/.</a> The Esternay project consists of making accessible via the web a vast network of 19th century personal and professional letters, in various formats. We can add scans of original letters, their transcriptions in French, and their translations into English. Because of the way the letters are tagged, we can record various fields (such as date, author, recipient, location, etc.). The goal is to make this historical database available to students and researchers, who can both use the current stock of materials and also work on augmenting them. Click "Computing Job Opportunity On Campus" above for more information.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=137068">Read more of &#8220;Computing Job Opportunity on Campus&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=137068">Permalink</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="pagination below"><a href="?page=31" title="Newer" class="previous">&lt;&lt; Newer</a> <span class="pages"> <a href="?page=1" title="Page 1">1</a> … <a href="?page=27" title="Page 27">27</a> <a href="?page=28" title="Page 28">28</a> <a href="?page=29" title="Page 29">29</a> <a href="?page=30" title="Page 30">30</a> <a href="?page=31" title="Page 31">31</a> <strong>32</strong> <a href="?page=33" title="Page 33">33</a> </span> <a href="?page=33" title="Older" class="next">Older &gt;&gt;</a></div>
+<div class="feedLink"><div class="feedInfo"><a href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed">xml</a></div><div class="feedHelp"><a href="http://apps.carleton.edu/campus/webgroup/articles/feeds/" title="More information about feeds">What is this?</a></div></div></div>
+</div>
+
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 15 April 2010</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

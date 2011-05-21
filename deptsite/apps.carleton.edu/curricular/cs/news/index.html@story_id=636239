@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Newsletter: Carleton Sentinel: Fall Term Course Descriptions</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/publication/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Carleton Sentinel, the CS Newsletter" />
+<meta name="keywords" content="Computer Science, Newsletter, Department, CS, Carleton Sentinel, Questions, Problems, News, Information" />
+<link rel="alternate" type="application/rss+xml" href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="fullGraphics crumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="hide"><a href="?story_id=636239&amp;textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<a name="top"></a><div id="carlNavWrap" class="standard">
+<div id="carlNav">
+<h1 id="carlHome"><a href="//www.carleton.edu/" title="Carleton College Home"><span></span>Carleton College</a></h1>
+<div class="searchWrap">
+<div id="combinedSearch">
+<div class="finders"><ul><li class="az"><a href="/az/" title="Alphabetical site list">A-Z Guide</a></li><li class="dir"><a href="//www.carleton.edu/campus/directory/" title="Faculty, Staff, &amp; Student Directory">Directory</a></li></ul></div>
+<form action="/search/" method="get">
+<div class="elements">
+<label for="combinedSearchInput" id="combinedSearchInputLabel"><span class="rep"></span>Search<span class="xtr"> people and pages</span></label>
+<input type="text" id="combinedSearchInput" name="keyword" size="14" class="input" />
+<input type="submit" id="combinedSearchSubmit" value="go" class="submit" />
+</div>
+</form>
+</div>
+</div>
+<div id="carlTabs">
+<div id="carlTopics"><ul><li class="home"><a href="//www.carleton.edu/" title="Carleton College home page"><img src="/global_stock/nav/img/home.gif" alt="Home" /></a></li><li class="acad sel"><a href="/academics/" title="Departments, programs, &amp; majors"><img src="/global_stock/nav/img/acad_sel.gif" alt="Academics" /></a></li><li class="life"><a href="/life/" title="Arts, athletics, organizations, and more"><img src="/global_stock/nav/img/life.gif" alt="Campus Life" /></a></li></ul></div><div id="carlAudiences"><ul><li class="prosp"><a href="/admissions/" title="Admissions &amp; other information for prospective students"><img src="/global_stock/nav/img/prosp.gif" alt="Prospective Students" /></a></li><li class="alum"><a href="/alumni/" title="Alumni Gateway"><img src="/global_stock/nav/img/alum.gif" alt="Alumni" /></a></li><li class="facs"><a href="/campus/" title="Faculty/Staff Gateway"><img src="/global_stock/nav/img/facs.gif" alt="Faculty &amp; Staff" /></a></li><li class="stud"><a href="/student/" title="Student Gateway"><img src="/global_stock/nav/img/stud.gif" alt="Students" /></a></li><li class="fam"><a href="/parents/" title="Parent &amp; Family Gateway"><img src="/global_stock/nav/img/fam.gif" alt="Families" /></a></li></ul></div>
+</div>
+</div>
+</div>
+<div id="wrapper" class="fullGraphicsView">
+<div id="breadcrumbs" class="locationBarText">You are here: <a href='http://www.carleton.edu/curricular/index.html' class='locationBarLinks'>Academic Departments</a> &gt; <a href="/curricular/cs/" class="locationBarLinks">Computer Science</a> &gt; <a href="/curricular/cs/news/" class="locationBarLinks">Newsletter</a> &gt; Fall Term Course Descriptions</div>
+<div class="bannerAndMeat fullGraphics">
+<div class="banner">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bannerTable" summary="The Site Name">
+<tr>
+<td class="bannerCol1">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+</td>
+<td class="bannerCol2">
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="layout">
+<table border="0" cellspacing="0" cellpadding="0" class="layoutTable" summary="The Main Content of Page">
+<tr>
+<td valign="top" class="navigationTD">
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/">Events</a></li><li class="navListItem open current item6"><a href="/curricular/cs/news/"><strong>Newsletter</strong></a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+
+
+<p class="textOnlyLink smallText"><a href="?story_id=636239&amp;textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<div class="navigationSpacer"><img src="/reason_package/reason_4.0/www/ui_images/stp.gif" width="150" height="2" alt="" /></div>
+</td>
+<td valign="top" class="contentTD">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span><a href="http://apps.carleton.edu/curricular/cs/news/">Newsletter: Carleton Sentinel</a></span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="blogDescription">
+<p>&quot;Keeping you in the loop since 2005&quot;</p></div>
+
+
+</div>
+<div class="contentPost">
+
+
+<div id="blog" class="publication">
+<div class="persistent">
+
+<div id="filtering">
+<form method="get" action="?" class="searchForm" >
+<label for="filterSearch1">Search:</label> <input name="search" value="" size="10" class="search" id="filterSearch1" />
+ <input class="submit" name="go" type="submit" value="Go" />
+</form>
+</div>
+<div class="loginlogout logout"><a href="https://apps.carleton.edu/login/"><span class="action">Log In</span></a></div>
+</div>
+<div class="item">
+<div class="fullPost"><div class="primaryContent">
+<h3 class="postTitle">Fall Term Course Descriptions</h3>
+<div class="date">May 20, 2010</div>
+<div class="text"><p><strong>FALL TERM COURSE DESCRIPTIONS</strong></p>
+<p><strong>CS 201: Data Structures. Instructor: Sherri Goings, Time: 4a</strong><br />
+Prerequisite: CS 111 or consent of the instructor</p>
+<p>Think back to your favorite assignment from Intro to Computer Science. Did you ever get the feeling that "there has to be a better/smarter way to do this problem?" The Data Structures course is all about how to store information intelligently and access it efficiently. How can Google take your query, compare it to billions of web pages, and return the answer in less than one second? How can one balance the trade-off of being able to store information so that it can be retrieved quickly, but also can be quickly updated? Ideas such as stacks, queues, trees, linked lists, graphs and hash tables will be examined, and we'll look at how to program them as well as how to analyze them for their performance.</p>
+<p><strong>CS 204:  Software Design.  Instructor:  Jeff Ondich, Time:  2a</strong><br />
+Prerequisite: CS 111 or consent of the instructor.</p>
+<p>Most software is developed by programmers with the best of intentions: I will study the needs of my audience, I will design before coding, I will write thorough and useful documentation, I will test exhaustively, and I will keep good records. Unfortunately, good intentions don't guarantee much. This course will focus on techniques and tools that will help you create good software and follow through on those good intentions. The course will center around a few medium-sized projects, with an emphasis on the formation of good habits in design, implementation, testing, and documentation. (Though there are many important things to be said about software engineering in teams, this course will not emphasize these issues, and you will be free to work individually or in groups.) Topics we will consider include code construction, object-oriented design, design patterns, requirements and specifications, testing, user interface design, and various programming tools (debuggers, integrated development environments, version control systems, etc.). We will also read lots of great advice from some leading writers on programming, and we will welcome a few professional programmers to class for story-telling and interrogation.</p>
+<p><strong>CS 208: Computer Org. and Architecture. Instructor: Amy Csizmar Dalal, Time: 4a</strong><br />
+Prerequisite: CS 111 or consent of instructor</p>
+<p>People talk about how computers speak a language consisting entirely of zeros and ones, and about all the computer’s work being done by a really big collection of transistors. But if you gave most of those people a big pile of transistors and plenty of solder, or pencils and papers enough to write millions of ones and zeros, they would not be able to build or plan a computing machine. In this course, you will learn how a collection of transistors or similar devices can be assembled to manipulate ones and zeros to cause computation to occur. Along the way, you will learn about machine and assembly language, integer and real numerical representations, digital logic, datapath design, caches, and pipelining.</p>
+<p><strong>CS 251: Programming Languages. Instructor: David Liben-Nowell, Time: 1a</strong><br />
+Prerequisite: CS 201 or permission of instructor</p>
+<p>Now that you've finished Data Structures, you've gotten a reasonable amount of experience in writing object-oriented programs in Python.  But there are programming languages other than Python -- and not all of them are object oriented.  In this course, we'll first spend some time learning other programming paradigms: procedural languages like C and functional languages like Scheme, for example.  But we'll spend the bulk of the term on how programming languages "work."  You spent much of CS 111 and CS 201 trying to figure out how to convince, cajole, coerce a Python program to do what you wanted it to do.  As you did, you've been developing an internal mental model of how a program works: variables, conditionals, function calls, etc.  In this course, you'll make that mental model explicit.  By the end of the term, you will have written an interpreter for Scheme programs, have thought about pros and cons of language design decisions, and be able to joke confidently about segmentation faults and parentheses.</p>
+<p><strong>CS 322: Natural Language Processing. Instructor:  Jeff Ondich, Time:  3A</strong><br />
+Prerequisite: CS 201 and 202 or consent of instructor</p>
+<p>If you go to <a href="http://www.powerset.com/">www.powerset.com</a>, you will be encouraged to type your questions in complete English sentences. If you look at IBM ViaVoice or Dragon Naturally Speaking, the advertising will try to convince you to buy a microphone and toss your keyboard in the trash. And if you don't turn off the grammar checking option in Microsoft Word, the squiggly green underlining will discourage you from using run-on sentences, sentence fragments, passive voice, and a distinctive writing style. These are examples of natural language software (that is, software that manipulates languages such as English or Spanish as opposed to formal languages such as Java or Python). In this course, we will study parsing (determining the grammatical structure of a sentence), stemming (e.g., associating "running," "ran," and "runs" with their common stem "run"), semantic analysis (extracting meaning from the words in a sentence or collection of sentences), anaphora (how pronouns and indefinite noun phrases can refer to previous nouns), speech recognition (turning speech sounds into text), the extraction of useful statistical data from large bodies of text, and dialogue systems.</p>
+<p><strong>CS 331: Computer Networks. Instructor: Amy Csizmar Dalal, Time: 5a</strong><br />
+Prerequisites: CS 201 and CS 208, or consent of the instructor.</p>
+<p>We connect computers together to send information from Point A to Point B. Sounds simple, right? But when you consider that computer networks connect millions of devices to millions of other devices, all over the globe, and when you think about all of the email and web pages and music and YouTube videos and gaming that entails...well, things get complicated, fast. In this course, we'll demystify the inner workings of computer networks. We'll start from familiar territory---the applications---and work our way down to how bits are transmitted. Along the way, we'll implement various protocols (including one developed right here in Minnesota!), uncover the intricacies and politics of routing, discuss security measures and missteps, and figure out the difference between WiFi and WiMax.</p></div>
+</div>
+</div></div>
+<div class="back"><div><a href="?page=1">Return to Newsletter: Carleton Sentinel</a></div></div></div>
+
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 20 May 2010</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

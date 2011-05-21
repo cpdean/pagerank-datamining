@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Newsletter: Carleton Sentinel: Corporate Technology Summer Internship Development Program (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/publication/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Carleton Sentinel, the CS Newsletter" />
+<meta name="keywords" content="Computer Science, Newsletter, Department, CS, Carleton Sentinel, Questions, Problems, News, Information" />
+<meta name="robots" content="none" />
+<link rel="alternate" type="application/rss+xml" href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?story_id=709400">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span><a href="http://apps.carleton.edu/curricular/cs/news/?textonly=1">Newsletter: Carleton Sentinel</a></span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="blogDescription">
+<p>&quot;Keeping you in the loop since 2005&quot;</p></div>
+
+
+</div>
+<div class="contentPost">
+
+
+<div id="blog" class="publication">
+<div class="persistent">
+
+<div id="filtering">
+<form method="get" action="?" class="searchForm" >
+<input type="hidden" name="textonly" value="1"><label for="filterSearch1">Search:</label> <input name="search" value="" size="10" class="search" id="filterSearch1" />
+ <input class="submit" name="go" type="submit" value="Go" />
+</form>
+</div>
+<div class="loginlogout logout"><a href="https://apps.carleton.edu/login/"><span class="action">Log In</span></a></div>
+</div>
+<div class="item">
+<div class="fullPost"><div class="primaryContent">
+<h3 class="postTitle">Corporate Technology Summer Internship Development Program</h3>
+<div class="date">February 11, 2011</div>
+<div class="text"><p>Message we received from JPMorgan Chase &amp; Co.:</p>
+<p>Corporate Technology Summer Internship Development Program</p>
+<p>JPMorgan Chase &amp; Co. (NYSE: JPM) is a leading global financial services firm with assets of $2 trillion and operations in more than 60 countries. The firm is a leader in investment banking, financial services for consumers, small business and commercial banking, financial transaction processing, asset management and private equity.&nbsp; A component of the Dow Jones Industrial Average, JPMorgan Chase serves millions of consumers in the United States and many of the world’s most prominent corporate, institutional and government clients under its J.P. Morgan and Chase brands.</p>
+<p>Technology at JPMorgan Chase</p>
+<p>"Financial services can be thought of as a technology business with a financial domain of expertise," says Guy Chiarello, the Chief Information Officer at JPMorgan Chase &amp; Co.</p>
+<p>We believe that our success rests on our ability to identify and implement technological solutions that anticipate client needs while providing employees with the tools that make JPMorgan Chase a premier place to work. We are a recognized leader in information technology aligned to the needs of specific business lines. While some IT professionals are business aligned, others work on firm-wide initiatives. Regardless of where they work, the overall mission of our IT specialists is to turn our applications, systems and infrastructure into a competitive advantage for the firm by coupling technological expertise with an understanding of our different strategic business visions.</p>
+<p>Program Overview</p>
+<p>JPMorgan Chase is seeking highly motivated individuals for opportunities within our Technology Summer Internship Development Program.</p>
+<p>The overall mission of JPMorgan Chase’s technology team is to establish technology as a competitive advantage for the firm by coupling technological expertise with an understanding of our strategic vision.&nbsp; Information technology supports the spectrum of staff functions that lie at the heart of virtually every aspect of our business.&nbsp; The goal of the Technology Summer Internship Development Program is to introduce and prepare participants for the information technology organization at JPMorgan Chase through a 10 week program.&nbsp; You will be exposed to different technology areas through varied training and presentations. Technology Summer Analysts join technology teams who are responsible for designing, developing and supporting the applications or projects that give our businesses their competitive edge.</p>
+<p>Summer Internship Program Details</p>
+<p>The Summer Internship Development Program is primarily for students entering their senior year of college, with some opportunities for rising sophomores and juniors.&nbsp; The Summer Internship Development Program is structured similarly to the full-time Technology Analyst Development Program.&nbsp; The variety of roles offered is vast and constantly evolving, with numerous opportunities to gain technology experience across all business areas. This creates a very exciting environment in which to launch a career.</p>
+<p>These are the different opportunities that are available within the Technology Summer Internship Development Program:</p>
+<p>Application Development Analyst</p>
+<p>·&nbsp;&nbsp; Design, develop, code, test, debug &amp; document applications</p>
+<p>·&nbsp;&nbsp; Translate requirements into technical specifications</p>
+<p>·&nbsp;&nbsp; Modify application codes</p>
+<p>·&nbsp;&nbsp; Develop reporting capabilities</p>
+<p>·&nbsp;&nbsp; Provide design recommendations for unit &amp; integration testing of applications</p>
+<p>·&nbsp;&nbsp; Create &amp; test software application modules</p>
+<p>&nbsp;</p>
+<p>Business Systems Analyst</p>
+<p>·&nbsp;&nbsp; Identify, assess &amp; record business needs</p>
+<p>·&nbsp;&nbsp; Advise on options, risk &amp; cost vs. benefit</p>
+<p>·&nbsp;&nbsp; Research new and existing technology solutions</p>
+<p>·&nbsp;&nbsp; Document &amp; communicate requirements</p>
+<p>·&nbsp;&nbsp; Translate documentation into test plans</p>
+<p>·&nbsp;&nbsp; Ensure test plans are completed</p>
+<p>·&nbsp;&nbsp; Execute unit testing &amp; implementation of new application functionality</p>
+<p>·&nbsp;&nbsp; Hold training sessions/demos</p>
+<p>·&nbsp;&nbsp; Develop appropriate documentation</p>
+<p>&nbsp;</p>
+<p>Service Delivery Analyst</p>
+<p>·&nbsp;&nbsp; Perform production support for applications or technology infrastructure (i.e. networks, servers, desktops)</p>
+<p>·&nbsp;&nbsp; Diagnose/resolve production problems</p>
+<p>·&nbsp;&nbsp; Install/remove, configure &amp; maintain operating system workstations &amp; servers</p>
+<p>·&nbsp;&nbsp; Evaluate, implement &amp; manage software/hardware solution</p>
+<p>·&nbsp;&nbsp; Ensure optimum system performance levels</p>
+<p>·&nbsp;&nbsp; Analyze system support processes</p>
+<p>·&nbsp;&nbsp; Create, manage &amp; execute test plans/scripts</p>
+<p>·&nbsp;&nbsp; Maintain template libraries &amp; internal project documentation</p>
+<p>·&nbsp;&nbsp; Execute progress reporting, defect tracking &amp; risk assessments</p>
+<p>&nbsp;</p>
+<p>Qualifications</p>
+<p>Only those candidates who are highly motivated and eager to begin their career in technology within our organization will be considered.</p>
+<p>·&nbsp;&nbsp; Business &amp; Technical Acumen is required to succeed in the program.&nbsp; Specifically:</p>
+<p>o&nbsp;&nbsp; Working towards a BA/BS degree, preferably In Computer Science, Computer Engineering, or Electrical Engineering is preferred</p>
+<p>o&nbsp;&nbsp; A GPA of 3.2+ is preferred</p>
+<p>o&nbsp;&nbsp; Working knowledge of C, C++, Java, C#, Visual Basic, SQL, networking and infrastructure and/or server administration.</p>
+<p>o&nbsp;&nbsp; Previous related internship experience and/or other relevant experience is preferred</p>
+<p>o&nbsp;&nbsp; Strong written/verbal communication skills</p>
+<p>·&nbsp;&nbsp;&nbsp; Other program qualifications are centered on competencies interns and analysts need to demonstrate on a consistent basis in order to be successful at JPMorgan Chase &amp; Co.:</p>
+<p>o&nbsp;&nbsp; Corporate Perspective:&nbsp; The desire to understand the bigger picture beyond the team/business area/region and to understand and exceed client needs.&nbsp; Strong desire to work in the financial services industry.</p>
+<p>o&nbsp;&nbsp; Delivery of Results:&nbsp; The ability to drive individual and team performance to exceed expectations and achieve business goals.</p>
+<p>o&nbsp;&nbsp; Leadership:&nbsp; The ability to articulate a vision and harness/engage resources to achieve objectives while role-modeling corporate values &amp; recognizing the business &amp; social value of diversity.&nbsp; Must be flexible, adaptable to change, able to multi-task in a fast-paced environment.</p>
+<p>o&nbsp;&nbsp; Drive for Innovation &amp; Improvement:&nbsp; The commitment to challenge &amp; question the way things are done and seek improvements / new ways of doing things to maximize value add, optimize cost and minimize risk.</p>
+<p>o&nbsp;&nbsp; Relationship Management:&nbsp; The ability to relate 1 on 1 and work inter-dependently with others - internal partners &amp; colleagues as well as external clients &amp; suppliers.&nbsp; Ability to collaborate with others in a results-driven, team-oriented environment.</p>
+<p>o&nbsp;&nbsp; Personal Development (Self &amp; Others):&nbsp; The passion for self-improvement and the desire to facilitate the development of others to achieve more than s/he believes may be possible.</p>
+<p>·&nbsp;&nbsp;&nbsp; All candidates must have the eligibility to work permanently in the U.S.</p>
+<p>Locations</p>
+<p>·&nbsp;&nbsp;&nbsp; New York Metro area</p>
+<p>·&nbsp;&nbsp;&nbsp; Columbus, OH</p>
+<p>·&nbsp;&nbsp;&nbsp; Newark/Wilmington, DE</p>
+<p>·&nbsp;&nbsp;&nbsp; Chicago, IL</p>
+<p>·&nbsp;&nbsp;&nbsp; Tampa, FL</p>
+<p>·&nbsp;&nbsp;&nbsp; Dallas, TX</p>
+<p>·&nbsp;&nbsp;&nbsp; Houston, TX</p>
+<p>If aware of potential candidates for our analyst program, please have students contact me directly at the following e-mail address:&nbsp; Leroy.Clarke@jpmorgan.com</p>
+<p>NOTE:&nbsp; The deadline to apply is Friday, March 4th</p></div>
+</div>
+</div></div>
+<div class="back"><div><a href="?textonly=1&amp;page=1">Return to Newsletter: Carleton Sentinel</a></div></div></div>
+
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?story_id=709400">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem open current item6"><a href="/curricular/cs/news/?textonly=1"><strong>Newsletter</strong></a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 11 February 2011</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

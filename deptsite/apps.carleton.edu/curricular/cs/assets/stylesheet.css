@@ -1,0 +1,34 @@
+a:link{color:#0232E2;text-decoration:underline}
+a:hover{color:#122980;text-decoration:underline}
+a:active{color:#0E5A17;text-decoration:underline}
+
+a.siteLink:visited{color:#ffffff;text-decoration:none}
+
+div.navigation{border:none}
+
+div.navigation a:link{text-decoration:none}
+div.navigation a:visited{text-decoration:none;}
+div.navigation a:hover{color:#122980;text-decoration:underline}
+div.navigation a:active{color:#0E5A17;text-decoration:none}
+
+
+
+pre
+{
+	color:brown;
+	font-family:"courier", serif;
+}
+tt
+{
+	color:brown;
+	font-family:"courier", serif;
+}
+div.layout {
+padding:0 4%;
+}
+a.siteLink {
+	text-shadow: -1px -1px 2px rgba(0,0,0,0.7);
+}
+div.subNav {
+	border:none;
+}

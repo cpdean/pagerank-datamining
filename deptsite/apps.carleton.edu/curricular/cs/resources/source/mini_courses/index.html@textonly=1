@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Mini Courses (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="These Mini Courses are introductions to a variety of programming languages; they are intended for those people who already know a programming language and who are interested in learning something new." />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Mini Courses</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><p><strong>Overview:</strong><br />
+To give students an opportunity to learn some languages and topics not discussed in other classes the following courses are available. These courses are considered 0 credit independent studies. Students will have access to a detailed syllabus for each course that outlines readings and exercises (with sample solutions available). For help with these courses, please contact Mike Tie (mtie@carleton.edu x4067)</p>
+<p>Note that many of these courses make reference to the use of a textbook; these textbooks should all be available in the library. If you cannot find one of the books there, let Mike Tie know.</p>
+<p><strong>About:</strong><br />
+These courses are offered as the culmination of a 2008-2009 Computer Science Comps project by Evan Drenning, Michael Gross, Jake Hilty, Max Olivier, and Galen Wetterling. We thank our advisor, Dave Musicant, for all of his help and hope you find the courses enjoyable and rewarding.</p>
+<p>In 2009, additional courses were created by William Levine, Erik Ruggles, and John Sweetnam.</p></div>
+
+</div>
+<div class="contentPost">
+
+
+<ul class="childrenList">
+<li class="number1 odd"><h4><a href="http://www.cs.carleton.edu/Minicourses/Java%20Course/Lesson1/Week1.html">Java</a></h4></li>
+<li class="number2 even"><h4><a href="http://www.cs.carleton.edu/Minicourses/Python%20Course/Lesson1/Lesson1.html">Python</a></h4></li>
+<li class="number3 odd"><h4><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/cpp/syllabus.html">C++</a></h4></li>
+<li class="number4 even"><h4><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/perl/syllabus.html">Perl</a></h4></li>
+<li class="number5 odd"><h4><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/tex/syllabus.html">TeX</a></h4></li>
+<li class="number6 even"><h4><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/php/week1.html">PHP</a></h4>
+<div class="childDesc">PHP requires a web server. If you don't have access to one, talk with Mike Tie (mtie@carleton.edu x4067).</div></li>
+<li class="number7 odd"><h4><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/verilog/index.html">Verilog</a></h4>
+<div class="childDesc">This mini course requires a Digilent Spartan 3E Starter Logic Board. These can be checked out from Mike Tie (mtie@carleton.edu x4067).</div></li>
+</ul>
+
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/?textonly=1">Student Employment</a></li><li class="navListItem open item5"><a href="/curricular/cs/resources/source/?textonly=1">Programming Resources and Tools</a><ul class="navList"><li class="navListItem open current item5"><strong>CS Mini Courses</strong><ul class="navList"><li class="navListItem closed item5 jump"><a href="http://www.cs.carleton.edu/Minicourses/Java%20Course/Lesson1/Week1.html">Java</a></li><li class="navListItem closed item6 jump"><a href="http://www.cs.carleton.edu/Minicourses/Python%20Course/Lesson1/Lesson1.html">Python</a></li><li class="navListItem closed item7 jump"><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/cpp/syllabus.html">C++</a></li><li class="navListItem closed item8 jump"><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/perl/syllabus.html">Perl</a></li><li class="navListItem closed item9 jump"><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/tex/syllabus.html">TeX</a></li><li class="navListItem closed item10 jump"><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/php/week1.html">PHP</a></li><li class="navListItem closed item11 jump"><a href="http://cs.carleton.edu/cs_comps/0809/minicourses/final_results/verilog/index.html">Verilog</a></li></ul></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/source/introcpp/?textonly=1">Compiling in Linux</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/source/makefiles/?textonly=1">Makefiles</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/source/keyb_int/?textonly=1">Keyboard Interrupts</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/source/bg_progs/?textonly=1">Running programs in the background</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/source/javascanner/?textonly=1">Scanner class</a></li><li class="navListItem closed item11 jump"><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li><li class="navListItem closed item12"><a href="/curricular/cs/resources/source/java_classpath_variable/?textonly=1">Setting your Java CLASSPATH variable</a></li><li class="navListItem closed item13"><a href="/curricular/cs/resources/source/java_install/?textonly=1">Installing Java 1.6 on your home computer</a></li><li class="navListItem closed item14"><a href="/curricular/cs/resources/source/python_install/?textonly=1">Installing Python 2.x On Your Home Computer</a></li><li class="navListItem closed item15"><a href="/curricular/cs/resources/source/Python_26/?textonly=1">Installing Python 3.0 on your home computer</a></li><li class="navListItem closed item16"><a href="/curricular/cs/resources/source/cygwin_howto/?textonly=1">Installing Cygwin</a></li><li class="navListItem closed item17"><a href="/curricular/cs/resources/source/tex/?textonly=1">TeX and LaTeX</a></li></ul></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/?textonly=1">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/?textonly=1">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/?textonly=1">CS Lab Assistant Resources</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/libe/?textonly=1">Periodicals</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/?textonly=1">Links</a></li><li class="navListItem closed item11"><a href="/curricular/cs/resources/graderguidelines/?textonly=1">Grader Guidelines</a></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 25 November 2009</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

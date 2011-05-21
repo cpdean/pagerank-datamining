@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Newsletter: Carleton Sentinel: Carnegie Mellon Recruiting (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/publication/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Carleton Sentinel, the CS Newsletter" />
+<meta name="keywords" content="Computer Science, Newsletter, Department, CS, Carleton Sentinel, Questions, Problems, News, Information" />
+<meta name="robots" content="none" />
+<link rel="alternate" type="application/rss+xml" href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?story_id=717133">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span><a href="http://apps.carleton.edu/curricular/cs/news/?textonly=1">Newsletter: Carleton Sentinel</a></span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="blogDescription">
+<p>&quot;Keeping you in the loop since 2005&quot;</p></div>
+
+
+</div>
+<div class="contentPost">
+
+
+<div id="blog" class="publication">
+<div class="persistent">
+
+<div id="filtering">
+<form method="get" action="?" class="searchForm" >
+<input type="hidden" name="textonly" value="1"><label for="filterSearch1">Search:</label> <input name="search" value="" size="10" class="search" id="filterSearch1" />
+ <input class="submit" name="go" type="submit" value="Go" />
+</form>
+</div>
+<div class="loginlogout logout"><a href="https://apps.carleton.edu/login/"><span class="action">Log In</span></a></div>
+</div>
+<div class="item">
+<div class="fullPost"><div class="primaryContent">
+<h3 class="postTitle">Carnegie Mellon Recruiting</h3>
+<div class="date">March 11, 2011</div>
+<div class="text"><p><strong>Post-doctoral Fellowship in Social Computing and Crowd Sourcing</strong></p>
+<p><strong>Carnegie Mellon University</strong></p>
+<p>The Human-Computer Interaction Institute at Carnegie Mellon University is recruiting a post-doctoral fellow in psychology, computer science or related disciplines to support a new research project on large scale distributed collaboration and crowd sourcing. &nbsp;Crowd sourcing marketplaces like Amazon’s Mechanical Turk have been mainly been used for accomplishing small, well defined nuggets of work, such as labeling images and transcribing audio, but are rarely used for more complex and integrated task, such as writing a complex document or program, typical of real world tasks in organizations. We are developing a framework and software infrastructure to better integrate the work of dozens of individuals to product produce complex artifacts together. Our research combines empirical research on the best strategies to combine the efforts of individual workers and software development to accomplish this integration.</p>
+<p>An ideal post-doctoral fellow will have interests and skills blending social psychology or organizational behavior with computer science and implementation. The candidate must have a PhD in computer science, HCI, information science, social psychology, organizational behavior, communication or a related discipline. The post-doctoral fellow would be supervised by Niki Kittur and Robert Kraut.</p>
+<p>The post-doctoral fellow will be part of a broader research group on social computing. There will be opportunities to take courses at Carnegie Mellon and the University of Pittsburgh that support advanced research skills (e.g., organizational behavior, social psychology, specialized statistics, research methodology classes, machine learning, small groups). The fellowship is for two years with the possibility of renewal.</p>
+<p>Interested candidates should send a personal statement describing career<br />
+objectives, background and experience along with a CV in Word or pdf<br />
+format to nkittur@cs.cmu.edu.&nbsp; Have at least two references also directly send their letters to this address, with your name in the subject line. Questions about the position should be addressed to Niki Kittur &lt;nkittur@cs.cmu.edu</p>
+<p><br />
+<strong>Ph.D. Summer Internship in Crowd Sourcing Research</strong></p>
+<p><strong>Carnegie Mellon University</strong></p>
+<p>We are looking for summer interns to work on next-generation crowdsourcing and collaboration technologies in the Social Computing Lab in Carnegie Mellon’s Human-Computer Interaction Institute. Our department works on a variety of projects that understand and build tools to support online collaboration, combining ideas and technologies from cloud computing, social networking, incentive design, organizational management and information visualization.</p>
+<p>Crowd sourcing marketplaces like Amazon’s Mechanical Turk have been mainly been used for accomplishing small, well defined nuggets of work, such as labeling images and transcribing audio, but are rarely used for more complex and integrated task, such as writing &nbsp;a complex document or program, typical of real world tasks in organizations. &nbsp;We are developing a framework and software infrastructure to better integrate the work of dozens of individuals to product produce complex artifacts together. &nbsp;Our research combines empirical research on the best strategies to combine the efforts of individual workers and software development to accomplish this integration.</p>
+<p>You will be involved in building tools and running experiments on Amazon’s Mechanical Turk investigating the optimal ways for individuals to collaborate online to produce complex artifacts together, such as writing articles or software. &nbsp;The work will include building an interface and backend to run experiments on Mechanical Turk, collecting and analyzing data, and writing up the results. &nbsp;Your efforts could have immediate impacts both in academia and in the real-world, resulting in publications in top HCI conferences as well as potentially changing the future of work.</p>
+<p>=== Requirements ===</p>
+<p>Candidates should have the necessary skills to perform research and build systems and must be able to generate new ideas, develop novel conceptual models and architectures and validate them with working prototypes and experiments. &nbsp;Candidates must be enrolled in a PhD program in computer science, human-computer interaction, organizational behavior or a related field. Candidates must also have strong programming skills.</p>
+<p>&nbsp;&nbsp; &nbsp; * Experience and interest in online group collaboration, production, or<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; coordination<br />
+&nbsp;&nbsp; &nbsp; * Proficiency in Python/Ruby, SQL, Java, and Web programming (e.g., PHP)<br />
+&nbsp;&nbsp; &nbsp; * User interface programming and design skills highly desired</p>
+<p>Starting and ending dates are flexible, but the preferred dates are June, July and August of 2011 in Pittsburgh PA. The internship will provide $3,200 in monthly stipend.</p>
+<p>Interested candidates should send a personal statement describing career objectives, background and experience along with a CV in Word or pdf format to nkittur@cs.cmu.edu.&nbsp; Have at least two references also directly send their letters to this address, with your name in the subject line. Questions about the position should be addressed to Niki Kittur &lt;nkittur@cs.cmu.edu.</p>
+<p><br />
+<strong>Undergraduate Summer Internship in Crowd Sourcing Research</strong></p>
+<p><strong>Carnegie Mellon University</strong></p>
+<p>We are looking for summer interns to work on next-generation crowdsourcing and collaboration technologies in the Social Computing Lab in Carnegie Mellon’s Human-Computer Interaction Institute. Our department works on a variety of projects that understand and build tools to support online collaboration, combining ideas and technologies from cloud computing, social networking, incentive design, organizational management and information visualization.</p>
+<p>Crowd sourcing marketplaces like Amazon’s Mechanical Turk have been mainly been used for accomplishing small, well defined nuggets of work, such as labeling images and transcribing audio, but are rarely used for more complex and integrated task, such as writing &nbsp;a complex document or program, typical of real world tasks in organizations. &nbsp;We are developing a framework and software infrastructure to better integrate the work of dozens of individuals to product produce complex artifacts together. &nbsp;Our research combines empirical research on the best strategies to combine the efforts of individual workers and software development to accomplish this integration.</p>
+<p>You will be involved in building tools and running experiments on Amazon’s Mechanical Turk investigating the optimal ways for individuals to collaborate online to produce complex artifacts together, such as writing articles or software. &nbsp;The work will include building an interface and backend on Mechanical Turk and running experiments using the interface. &nbsp;Your efforts could have immediate impacts both in academia and in the real-world, resulting in publications in top HCI conferences as well as potentially changing the future of work.</p>
+<p>=== Requirements ===</p>
+<p>Candidates must have strong programming skills.</p>
+<p>&nbsp;&nbsp; &nbsp; * Experience and interest in online group collaboration, production, or<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; coordination<br />
+&nbsp;&nbsp; &nbsp; * Proficiency in Python/Ruby, SQL, Java, and Web programming (e.g.,PHP)<br />
+&nbsp;&nbsp; &nbsp; * User interface programming and design skills highly desired</p>
+<p>Starting and ending dates are flexible, but the preferred dates are June, July and August of 2011 in Pittsburgh PA.</p>
+<p>Interested candidates should send a personal statement describing interests, background and experience along with a resume and unofficial transcript to nkittur@cs.cmu.edu.&nbsp; Questions about the position should be addressed to Niki Kittur &lt;nkittur@cs.cmu.edu.</p></div>
+</div>
+</div></div>
+<div class="back"><div><a href="?textonly=1&amp;page=1">Return to Newsletter: Carleton Sentinel</a></div></div></div>
+
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?story_id=717133">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem open current item6"><a href="/curricular/cs/news/?textonly=1"><strong>Newsletter</strong></a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 11 March 2011</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

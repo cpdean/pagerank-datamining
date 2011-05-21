@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Newsletter: Carleton Sentinel</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/publication/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Carleton Sentinel, the CS Newsletter" />
+<meta name="keywords" content="Computer Science, Newsletter, Department, CS, Carleton Sentinel, Questions, Problems, News, Information" />
+<link rel="alternate" type="application/rss+xml" href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="fullGraphics crumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="hide"><a href="?page=8&amp;textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<a name="top"></a><div id="carlNavWrap" class="standard">
+<div id="carlNav">
+<h1 id="carlHome"><a href="//www.carleton.edu/" title="Carleton College Home"><span></span>Carleton College</a></h1>
+<div class="searchWrap">
+<div id="combinedSearch">
+<div class="finders"><ul><li class="az"><a href="/az/" title="Alphabetical site list">A-Z Guide</a></li><li class="dir"><a href="//www.carleton.edu/campus/directory/" title="Faculty, Staff, &amp; Student Directory">Directory</a></li></ul></div>
+<form action="/search/" method="get">
+<div class="elements">
+<label for="combinedSearchInput" id="combinedSearchInputLabel"><span class="rep"></span>Search<span class="xtr"> people and pages</span></label>
+<input type="text" id="combinedSearchInput" name="keyword" size="14" class="input" />
+<input type="submit" id="combinedSearchSubmit" value="go" class="submit" />
+</div>
+</form>
+</div>
+</div>
+<div id="carlTabs">
+<div id="carlTopics"><ul><li class="home"><a href="//www.carleton.edu/" title="Carleton College home page"><img src="/global_stock/nav/img/home.gif" alt="Home" /></a></li><li class="acad sel"><a href="/academics/" title="Departments, programs, &amp; majors"><img src="/global_stock/nav/img/acad_sel.gif" alt="Academics" /></a></li><li class="life"><a href="/life/" title="Arts, athletics, organizations, and more"><img src="/global_stock/nav/img/life.gif" alt="Campus Life" /></a></li></ul></div><div id="carlAudiences"><ul><li class="prosp"><a href="/admissions/" title="Admissions &amp; other information for prospective students"><img src="/global_stock/nav/img/prosp.gif" alt="Prospective Students" /></a></li><li class="alum"><a href="/alumni/" title="Alumni Gateway"><img src="/global_stock/nav/img/alum.gif" alt="Alumni" /></a></li><li class="facs"><a href="/campus/" title="Faculty/Staff Gateway"><img src="/global_stock/nav/img/facs.gif" alt="Faculty &amp; Staff" /></a></li><li class="stud"><a href="/student/" title="Student Gateway"><img src="/global_stock/nav/img/stud.gif" alt="Students" /></a></li><li class="fam"><a href="/parents/" title="Parent &amp; Family Gateway"><img src="/global_stock/nav/img/fam.gif" alt="Families" /></a></li></ul></div>
+</div>
+</div>
+</div>
+<div id="wrapper" class="fullGraphicsView">
+<div id="breadcrumbs" class="locationBarText">You are here: <a href='http://www.carleton.edu/curricular/index.html' class='locationBarLinks'>Academic Departments</a> &gt; <a href="/curricular/cs/" class="locationBarLinks">Computer Science</a> &gt; Newsletter</div>
+<div class="bannerAndMeat fullGraphics">
+<div class="banner">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bannerTable" summary="The Site Name">
+<tr>
+<td class="bannerCol1">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+</td>
+<td class="bannerCol2">
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="layout">
+<table border="0" cellspacing="0" cellpadding="0" class="layoutTable" summary="The Main Content of Page">
+<tr>
+<td valign="top" class="navigationTD">
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/">The Major</a></li><li class="navListItem closed item4"><a href="/curricular/cs/resources/">Resources</a></li><li class="navListItem closed item5"><a href="/curricular/cs/events/">Events</a></li><li class="navListItem open current item6"><strong>Newsletter</strong></li><li class="navListItem closed item7"><a href="/curricular/cs/students/">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+
+
+<p class="textOnlyLink smallText"><a href="?page=8&amp;textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<div class="navigationSpacer"><img src="/reason_package/reason_4.0/www/ui_images/stp.gif" width="150" height="2" alt="" /></div>
+</td>
+<td valign="top" class="contentTD">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Newsletter: Carleton Sentinel</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="blogDescription">
+<p>&quot;Keeping you in the loop since 2005&quot;</p></div>
+
+
+</div>
+<div class="contentPost">
+
+
+<div id="blog" class="publication">
+<div class="persistent">
+
+<div id="filtering">
+<form method="get" action="?" class="searchForm" >
+<label for="filterSearch1">Search:</label> <input name="search" value="" size="10" class="search" id="filterSearch1" />
+ <input class="submit" name="go" type="submit" value="Go" />
+</form>
+</div>
+<div class="loginlogout logout"><a href="https://apps.carleton.edu/login/"><span class="action">Log In</span></a></div>
+</div>
+<div class="moduleNav">
+<div class="pagination above"><a href="?page=7" title="Newer" class="previous">&lt;&lt; Newer</a> <span class="pages"> <a href="?page=1" title="Page 1">1</a> … <a href="?page=3" title="Page 3">3</a> <a href="?page=4" title="Page 4">4</a> <a href="?page=5" title="Page 5">5</a> <a href="?page=6" title="Page 6">6</a> <a href="?page=7" title="Page 7">7</a> <strong>8</strong> <a href="?page=9" title="Page 9">9</a> <a href="?page=10" title="Page 10">10</a> <a href="?page=11" title="Page 11">11</a> <a href="?page=12" title="Page 12">12</a> <a href="?page=13" title="Page 13">13</a> … <a href="?page=33" title="Page 33">33</a> </span> <a href="?page=9" title="Older" class="next">Older &gt;&gt;</a></div>
+<ul class="posts">
+<li class="post"><h4 class="title"><a href="?story_id=612488">REU Opportunity at Montclair State University</a></h4>
+<div class="date">March 3, 2010</div>
+<div class="desc"><p>The Department of Computer Science and the Center of Imaging and Optics at Montclair State University have organized an 8-week intensive undergraduate research program.  Application deadline is March 20, 2010.  Visit the <a href="http://pages.csam.montclair.edu/%7Erobila/iMagine/">Montclair</a> website for more information.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=612488">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=612481">Undergraduate Internship/JHU Summer Workshop on Langauge Engineering</a></h4>
+<div class="date">March 3, 2010</div>
+<div class="desc"><p>The Center for Language and Speech Processing at the Johns Hopkins University is seeking outstanding members of the current junior class to participate in a summer workshop on language engineering from June 7-July 30, 2010 (in Baltimore, Maryland).  Application deadline is March 19, 2010.  For more information visit the <a href="http://www.clsp.jhu.edu/workshops/ws10/internship.php">Johns Hopkins</a> website.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=612481">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=612469">Internship Opportunity at Thomson Reuters</a></h4>
+<div class="date">March 3, 2010</div>
+<div class="desc"><p>Thomson Reuters in Eagan, MN is looking to hiring 25 interns.  Click above for more information.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=612469">Read more of &#8220;Internship Opportunity at Thomson Reuters&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=612469">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=612437">CS Comps Gala</a></h4>
+<div class="date">March 3, 2010</div>
+<div class="desc"><p>You are invited to attend the CS Comps Gala on Saturday, March 6 from 9 a.m - 3 p.m. in Boliou 104. Click above for more information.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=612437">Read more of &#8220;CS Comps Gala&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=612437">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=609508">Programming Contest</a></h4>
+<div class="date">February 19, 2010</div>
+<div class="desc"><p>Clarkson University International Collegiate Programming Contest (CUICPC) will be held on Saturday, March 27, 2010 on the Clarkson University campus, in Potsdam, New York. Registration deadline is March 12, 2010.  For more information click on the link above.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=609508">Read more of &#8220;Programming Contest&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=609508">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=608796">REU Opportunity at DePaul University &amp; University of Chicago</a></h4>
+<div class="date">February 17, 2010</div>
+<div class="desc"><p>The NSF REU Program in Medical Informatics (MedIX) at DePaul University and University of Chicago are looking for undergraduate students to get in involved in research for the Summer of 2010.  Application deadline is March 1, 2010.  Click above for more information.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=608796">Read more of &#8220;REU Opportunity at DePaul University &amp; University of Chicago&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=608796">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=608786">KRLX IT ENGINEER</a></h4>
+<div class="date">February 17, 2010</div>
+<div class="desc"><p>KRLX is looking for an IT Engineer for next year.  Application deadline is Sunday, February 21 at 5 p.m.  For more information click on the link above.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=608786">Read more of &#8220;KRLX IT ENGINEER&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=608786">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=608772">Internship Opportunity at Grid Logic in Northfield</a></h4>
+<div class="date">February 17, 2010</div>
+<div class="desc"><p>Northfield-based business software development firm is seeking a part-time intern for immediate placement.  Click on the link above for more information.</p>
+<p><br /></p>
+<p> </p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=608772">Read more of &#8220;Internship Opportunity at Grid Logic in Northfield&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=608772">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=608750">Spring Term Course Descriptions</a></h4>
+<div class="date">February 17, 2010</div>
+<div class="desc"><p>Registration for spring term courses is coming up soon: it begins on Monday, February 22.  Click above for descriptions of the computer science courses (above Intro to CS) that will be offered spring term.  In addition to your own advisor, remember that you can contact our Student Departmental Advisors <a href="mailto:kawalere@carleton.edu">Emily Kawaler</a> or <a href="mailto:shinkawk@carleton.edu">Kohei Shinkawa</a> if you have questions.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=608750">Read more of &#8220;Spring Term Course Descriptions&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=608750">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=606992">REU Opportunity at DePauw University</a></h4>
+<div class="date">February 11, 2010</div>
+<div class="desc"><p>DePauw University, in Greencastle, Indiana, is hosting a 10-week research experience for undergraduate students.  Applications are due on March 15, 2010.  For more information click on the link above.</p></div>
+<ul class="links">
+<li class="more"><a href="?story_id=606992">Read more of &#8220;REU Opportunity at DePauw University&#8221;</a></li>
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=606992">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=606987">Want To Be A Computer Science Major?</a></h4>
+<div class="date">February 11, 2010</div>
+<div class="desc"><p>Are you considering a major in computer science?  We're hosting an information session for prospective computer science majors on Tuesday, February 16, at 4 p.m. in CMC 206.  Come and meet computer science students and faculty, enjoy some food, and learn about how awesome this major is.  Hope to see you there!</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=606987">Permalink</a></li>
+</ul>
+</li>
+<li class="post"><h4 class="title"><a href="?story_id=606980">Summer Research Opportunities at Carleton: Approaching Deadline!</a></h4>
+<div class="date">February 11, 2010</div>
+<div class="desc"><p>Interested in doing research in the CS department this summer?  The application deadline, February 15, is fast approaching!  For more details on the available projects and the application process, visit the <a title="Summer Research Opportunities" href="//apps.carleton.edu/curricular/cs/summerresearch/">summer research website</a>.</p></div>
+<ul class="links">
+<li class="permalink"><a href="http://apps.carleton.edu/curricular/cs/news/?story_id=606980">Permalink</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="pagination below"><a href="?page=7" title="Newer" class="previous">&lt;&lt; Newer</a> <span class="pages"> <a href="?page=1" title="Page 1">1</a> … <a href="?page=3" title="Page 3">3</a> <a href="?page=4" title="Page 4">4</a> <a href="?page=5" title="Page 5">5</a> <a href="?page=6" title="Page 6">6</a> <a href="?page=7" title="Page 7">7</a> <strong>8</strong> <a href="?page=9" title="Page 9">9</a> <a href="?page=10" title="Page 10">10</a> <a href="?page=11" title="Page 11">11</a> <a href="?page=12" title="Page 12">12</a> <a href="?page=13" title="Page 13">13</a> … <a href="?page=33" title="Page 33">33</a> </span> <a href="?page=9" title="Older" class="next">Older &gt;&gt;</a></div>
+<div class="feedLink"><div class="feedInfo"><a href="/curricular/cs/feeds/blogs/sentinel" title="RSS 2.0 feed">xml</a></div><div class="feedHelp"><a href="http://apps.carleton.edu/campus/webgroup/articles/feeds/" title="More information about feeds">What is this?</a></div></div></div>
+</div>
+
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 15 April 2010</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

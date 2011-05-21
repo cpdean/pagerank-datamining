@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: PIL (Python Imaging Library) for Python 2.x</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="PIL (Python Imaging Library) is used in many of the intro CS courses. This page describes how to install it for Windows and Mac OS. NOTE: PIL is NOT available for Python 3." />
+<meta name="author" content="mtie" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="fullGraphics crumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="hide"><a href="?textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<a name="top"></a><div id="carlNavWrap" class="standard">
+<div id="carlNav">
+<h1 id="carlHome"><a href="//www.carleton.edu/" title="Carleton College Home"><span></span>Carleton College</a></h1>
+<div class="searchWrap">
+<div id="combinedSearch">
+<div class="finders"><ul><li class="az"><a href="/az/" title="Alphabetical site list">A-Z Guide</a></li><li class="dir"><a href="//www.carleton.edu/campus/directory/" title="Faculty, Staff, &amp; Student Directory">Directory</a></li></ul></div>
+<form action="/search/" method="get">
+<div class="elements">
+<label for="combinedSearchInput" id="combinedSearchInputLabel"><span class="rep"></span>Search<span class="xtr"> people and pages</span></label>
+<input type="text" id="combinedSearchInput" name="keyword" size="14" class="input" />
+<input type="submit" id="combinedSearchSubmit" value="go" class="submit" />
+</div>
+</form>
+</div>
+</div>
+<div id="carlTabs">
+<div id="carlTopics"><ul><li class="home"><a href="//www.carleton.edu/" title="Carleton College home page"><img src="/global_stock/nav/img/home.gif" alt="Home" /></a></li><li class="acad sel"><a href="/academics/" title="Departments, programs, &amp; majors"><img src="/global_stock/nav/img/acad_sel.gif" alt="Academics" /></a></li><li class="life"><a href="/life/" title="Arts, athletics, organizations, and more"><img src="/global_stock/nav/img/life.gif" alt="Campus Life" /></a></li></ul></div><div id="carlAudiences"><ul><li class="prosp"><a href="/admissions/" title="Admissions &amp; other information for prospective students"><img src="/global_stock/nav/img/prosp.gif" alt="Prospective Students" /></a></li><li class="alum"><a href="/alumni/" title="Alumni Gateway"><img src="/global_stock/nav/img/alum.gif" alt="Alumni" /></a></li><li class="facs"><a href="/campus/" title="Faculty/Staff Gateway"><img src="/global_stock/nav/img/facs.gif" alt="Faculty &amp; Staff" /></a></li><li class="stud"><a href="/student/" title="Student Gateway"><img src="/global_stock/nav/img/stud.gif" alt="Students" /></a></li><li class="fam"><a href="/parents/" title="Parent &amp; Family Gateway"><img src="/global_stock/nav/img/fam.gif" alt="Families" /></a></li></ul></div>
+</div>
+</div>
+</div>
+<div id="wrapper" class="fullGraphicsView">
+<div id="breadcrumbs" class="locationBarText">You are here: <a href='http://www.carleton.edu/curricular/index.html' class='locationBarLinks'>Academic Departments</a> &gt; <a href="/curricular/cs/" class="locationBarLinks">Computer Science</a> &gt; <a href="/curricular/cs/resources/" class="locationBarLinks">Resources</a> &gt; <a href="/curricular/cs/resources/source/" class="locationBarLinks">Programming Resources and Tools</a> &gt; PIL (Python Imaging Library) for Python 2.x</div>
+<div class="bannerAndMeat fullGraphics">
+<div class="banner">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bannerTable" summary="The Site Name">
+<tr>
+<td class="bannerCol1">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+</td>
+<td class="bannerCol2">
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="layout">
+<table border="0" cellspacing="0" cellpadding="0" class="layoutTable" summary="The Main Content of Page">
+<tr>
+<td valign="top" class="navigationTD">
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/">Student Employment</a></li><li class="navListItem open pseudoCurrent item5"><a href="/curricular/cs/resources/source/"><strong>Programming Resources and Tools</strong></a><ul class="navList"><li class="navListItem closed item5"><a href="/curricular/cs/resources/source/mini_courses/">CS Mini Courses</a></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/source/introcpp/">Compiling in Linux</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/source/makefiles/">Makefiles</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/source/keyb_int/">Keyboard Interrupts</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/source/bg_progs/">Running programs in the background</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/source/javascanner/">Scanner class</a></li><li class="navListItem closed item11 jump"><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li><li class="navListItem closed item12"><a href="/curricular/cs/resources/source/java_classpath_variable/">Setting your Java CLASSPATH variable</a></li><li class="navListItem closed item13"><a href="/curricular/cs/resources/source/java_install/">Installing Java 1.6 on your home computer</a></li><li class="navListItem closed item14"><a href="/curricular/cs/resources/source/python_install/">Installing Python 2.x On Your Home Computer</a></li><li class="navListItem closed item15"><a href="/curricular/cs/resources/source/Python_26/">Installing Python 3.0 on your home computer</a></li><li class="navListItem closed item16"><a href="/curricular/cs/resources/source/cygwin_howto/">Installing Cygwin</a></li><li class="navListItem closed item17"><a href="/curricular/cs/resources/source/tex/">TeX and LaTeX</a></li></ul></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/">CS Lab Assistant Resources</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/libe/">Periodicals</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/">Links</a></li><li class="navListItem closed item11"><a href="/curricular/cs/resources/graderguidelines/">Grader Guidelines</a></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+
+
+<p class="textOnlyLink smallText"><a href="?textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<div class="navigationSpacer"><img src="/reason_package/reason_4.0/www/ui_images/stp.gif" width="150" height="2" alt="" /></div>
+</td>
+<td valign="top" class="contentTD">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>PIL (Python Imaging Library) for Python 2.x</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><p>PIL (aka the Python Imaging Library) is used in many of the Carleton College Intro CS courses. NOTE:&nbsp; PIL is NOT available for Python 3.&nbsp; This page contains installation instructions for Python 2.x:</p>
+<p><strong>WINDOWS XP and Vista and 7:</strong></p>
+<ul>
+<li>The latest downloads of PIL for windows can be found at <a href="http://www.pythonware.com/products/pil/">http://www.pythonware.com/products/pil/</a>.</li>
+<li>Download the current release: <a href="http://effbot.org/downloads/PIL-1.1.7.win32-py2.7.exe">http://effbot.org/downloads/PIL-1.1.7.win32-py2.7.exe</a></li>
+<li>Double click on the downloaded executable. And that will install PIL.</li>
+</ul>
+<p><strong>MAC:</strong></p>
+<ul>
+<li>In order to install PIL, you must have Xcode, a developer toolset, installed on your machine.&nbsp; These files can be found on the installation CD's provided by Apple when you purchased your MAC.</li>
+<li>These files can also be found online: <a href="http://developer.apple.com/technologies/xcode.html">http://developer.apple.com/technologies/xcode.html</a></li>
+<li>You MUST be a registered Apple Developer to download software.&nbsp; Registration is free and can be done here: <a href="http://developer.apple.com/programs/register/">http://developer.apple.com/programs/register/</a></li>
+</ul>
+<p><strong>MAC OSX 10.4 (Tiger):</strong></p>
+<ul>
+<li>PIL for the mac can be found at <a href="http://pythonmac.org/packages/py25-fat/index.html">http://pythonmac.org/packages/py25-fat/index.html</a></li>
+<li>Scroll half way down the page until you find PIL dmg, and download the current release: <a href="http://pythonmac.org/packages/py25-fat/dmg/PIL-1.1.6-py2.5-macosx10.4-2007-05-18.dmg">http://pythonmac.org/packages/py25-fat/dmg/PIL-1.1.6-py2.5-macosx10.4-2007-05-18.dmg</a></li>
+<li>double click the dmg, and follow the directions in the dmg to finish installing PIL.</li>
+</ul>
+<p><strong>MAC OSX 10.5 (Leopard) and 10.6 (Snow Leopard):</strong></p>
+<ul>
+<li>PIL for 10.5 has not been packaged into a dmg yet so we will need to use the Terminal for this, to open Terminal go to Applications&gt;Utilities and find terminal.</li>
+<li>Now if you have installed wget in the past you can type at the command prompt:</li>
+<li style="list-style: none outside none; display: inline;">
+<ul>
+<li>wget <code>http://www.ijg.org/files/jpegsrc.v8c.tar.gz</code></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>If you haven't installed wget, just open a web browser and navigate to the following address and the file will automatically download.</li>
+<li style="list-style: none outside none; display: inline;">
+<ul>
+<li>
+<pre>
+<a href="http://www.ijg.org/files/jpegsrc.v8c.tar.gz"><code>http://www.ijg.org/files/jpegsrc.v8c.tar.gz</code><br /></a>
+</pre></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>At the command line type the following:</li>
+<li style="list-style: none outside none; display: inline;">
+<ul>
+<li>
+<pre>
+<code>tar zxvf jpegsrc.v8c.tar.gz<br />cd jpeg-8/<br />./configure<br />make<br />sudo make install</code>
+</pre></li>
+<li style="list-style: none outside none; display: inline;">
+<ul>
+<li>Note ./configure, make, and sudo make install-lib may take some time</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>If you are able to use wget use it on the following address, if not just type into your browser as before:</li>
+<li style="list-style: none outside none; display: inline;">
+<ul>
+<li><code>http://effbot.org/media/downloads/Imaging-1.1.6.tar.gz</code></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>At the command line type to finish your install:</li>
+<li style="list-style: none outside none; display: inline;">
+<ul>
+<li>
+<pre>
+<code>tar zxvf Imaging-1.1.7.tar.gz <br />cd Imaging-1.1.7<br />sudo python setup.py install</code>
+</pre></li>
+</ul>
+</li>
+</ul>
+<p>If you have any questions about installing PIL for Windows, Mac, or any other operating system, please contact Michael Tie (mtie@carleton.edu x4067)</p>
+<p>If you having trouble with a laptop, you can even bring your computer to Mike Tie (cmc 305) for help.</p>
+<p>&nbsp;</p></div>
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 29 March 2011</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

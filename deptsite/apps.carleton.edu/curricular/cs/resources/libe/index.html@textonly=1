@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Periodicals and Library Resources (Text Only)</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/textonly_styles.css" />
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/print_styles.css" media="print" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="The Carleton, department, and St. Olaf libraries house a large number of books and journals on computer science and computer-related areas." />
+<meta name="keywords" content="Computer Science, CS, Libraries, Periodicals, Journals, Subscriptions, Research, Resources, Library" />
+<meta name="robots" content="none" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="textOnly nocrumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<h1><a href="http://www.carleton.edu">Carleton College</a></h1>
+<div id="wrapper" class="textOnlyView">
+<div class="bannerAndMeat textOnly">
+<div class="banner">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/?textonly=1" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</div>
+<div class="layout">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Periodicals and Library Resources</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><p>The Carleton Library houses a large number of books and journals on computer science and computer-related areas. You will find the books mainly under QA76 and nearby numbers. Following are partial lists of computer-related periodicals, many of which you will want to become familiar with. The following periodicals are arranged in the order they should appear on the racks and in the stacks. Except as noted these are housed in the main library.</p>
+<ul>
+<li><em><acronym title="Association for Computing Machinery">ACM</acronym> Computing Surveys</em>: Good survey articles, often organized around some theme.</li>
+<li><em><acronym title="Association for Computing Machinery">ACM</acronym> Letters on Programming Languages and Systems</em></li>
+<li><em><acronym title="Association for Computing Machinery">ACM</acronym> Transactions on Graphics</em></li>
+<li><em><acronym title="Association for Computing Machinery">ACM</acronym> Transactions on Computer Systems</em></li>
+<li><em><acronym title="Association for Computing Machinery">ACM</acronym> Transactions on Database Systems</em></li>
+<li><em><acronym title="Association for Computing Machinery">ACM</acronym> Transactions on Mathematical Software</em>: Contains many useful algorithms.</li>
+<li><em><acronym title="Association for Computing Machinery">ACM</acronym> Transactions on Programming Languages and Systems</em></li>
+<li><em><acronym title="Association for Computing Machinery">ACM</acronym> Transactions on Software Engineering</em></li></ul>
+All of the above are research journals of the Association for Computing Machinery (not the Associated Colleges of the Midwest or the Arts Council of Minnesota), which is the main professional computer science organization. 
+<ul>
+<li><em>Advances in Computer Science</em>: Issued annually.</li>
+<li><em>AI Expert</em> : Articles on expert system development. Also see IEEE Expert.</li>
+<li><em>AI Magazine</em></li>
+<li><em>Collegiate Microcomputer</em></li>
+<li><em>Annual Review of Automatic Programming</em></li>
+<li><em>Communications of the <acronym title="Association for Computing Machinery">ACM</acronym></em>: Not a research journal. General articles and what's going on in <acronym title="Association for Computing Machinery">ACM</acronym>'s world.</li>
+<li><em>Computer</em>: Excellent survey articles on both hardware and software. Published by <acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym>'s Computer Society. (<acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym>, pronounce "I triple E,'' stands for the Institute of Electrical and Electronic Engineers.)</li>
+<li><em>Computers in Mathematics and High School Teaching</em></li>
+<li><em>Computers and the Humanities</em>: Wow your friends with neat applications in their fields.</li>
+<li><em>Computing Reviews</em>: Reviews of numerous articles and a few books in computer science. The first general place, after specialized journals and books, to look when researching a new topic, such as a comps topic.</li>
+<li><em>Computers in Physics</em></li>
+<li><em>Computing Teacher</em>: For high school computer science teachers. See also Micromath and Computers in Mathematics and Science Teaching (below).</li>
+<li><em>Database</em></li>
+<li><em>Discrete and Computational Geometry</em></li></ul>
+The following seven are research journals of the IEEE. Most of these are bi-monthly; some are monthly. 
+<ul>
+<li><em><acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym> Computer Graphics and Applications</em></li>
+<li><em><acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym> Expert</em></li>
+<li><em><acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym> Micro</em></li>
+<li><em><acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym> Software</em></li>
+<li><em><acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym> Transactions on Computers</em>: "Transactions'' connotes a stronger emphasis on research.</li>
+<li><em><acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym> Transactions on Pattern Analysis and Machine Intelligence</em></li>
+<li><em><acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym> Transactions on Software Engineering</em></li>
+<li><em>Journal of the Association for Computing Machinery</em>: Historically, the <acronym title="Association for Computing Machinery">ACM</acronym>'s primary research journal.</li>
+<li><em>LISP and Symbolic Computation</em></li>
+<li><em>Mathematica Journal</em></li>
+<li><em>Mathematics of Computation</em>: Published by the American Mathematical Society.</li>
+<li><em>Micromath</em> : The British Asociation of Teachers of Mathematics' view of computers in math education.</li>
+<li><em>Minds and Machines</em></li>
+<li><em>Online</em></li>
+<li><em>SIAM Journal on Computing</em>: The main computing research journal of the Society for Industrial and Applied Mathematics. Rather mathematical, e.g., combinatorial and numerical problems, coding theory, theory of computation, etc.</li>
+<li><em>SIAM Journal on Numerical Analysis</em></li>
+<li><em>Simulation</em> : Published by The Society for Computer Simulation.</li></ul>
+<strong><a name="XIsto" id="XIsto"></a>The St. Olaf Science Library</strong> purposely subscribes to more journals of the ACM as we do of the <acronym title="Institute of Electrical and Electronic Engineers">IEEE</acronym>. 
+<p>In the CMC, especially in the lounge, in the help center and in the "fishbowl," you'll find some of the above and many of the current popular computer magazines, including:</p>
+<ul>
+<li><em>Abacus</em>: "The magazine for the computer professional.'' General articles on general computing written at the Scientific American level.</li>
+<li><em>Byte</em>: Probably the best of the "popular computing'' genre. Back issues are not well organized. Lots of ads. A few of the articles have reference value. A watershed: journals of more reference value should be retained; of less value, pitched.</li>
+<li><em>Computer Language</em>: "By and for professional programmers and software developers.'' Quite readable. Edited but not refereed.</li>
+<li><em>Datamation</em> : A major magazine on the business of computers and computing.</li>
+<li><em>Dr. Dobb's Journal</em></li>
+<li><em>MacUser, MacWeek ,</em> and <em>MacWorld</em>: Ads and reviews of products for the Apple MacIntosh. Also obtained by the Computer Center.</li>
+<li><em>PC Computing, PC Magazine,</em> and <em>PC World</em>: Ads and reviews for PC products.</li></ul></div>
+
+</div>
+</div>
+
+
+<p class="fullGraphicsLink"><a href="?">View full graphics version of this page</a></p>
+
+
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/?textonly=1" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/?textonly=1">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/?textonly=1">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/?textonly=1">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/?textonly=1">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/?textonly=1">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/?textonly=1">Student Employment</a></li><li class="navListItem closed item5"><a href="/curricular/cs/resources/source/?textonly=1">Programming Resources and Tools</a></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/?textonly=1">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/?textonly=1">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/?textonly=1">CS Lab Assistant Resources</a></li><li class="navListItem open current item9"><strong>Periodicals</strong></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/?textonly=1">Links</a></li><li class="navListItem closed item11"><a href="/curricular/cs/resources/graderguidelines/?textonly=1">Grader Guidelines</a></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/?textonly=1">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/?textonly=1">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/?textonly=1">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/?textonly=1">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/?textonly=1">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/?textonly=1">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 2 September 2004</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>

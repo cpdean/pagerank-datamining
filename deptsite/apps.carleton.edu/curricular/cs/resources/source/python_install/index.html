@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="/reason_package/jquery/jquery_latest.js"></script>
+<link rel="stylesheet" type="text/css" href="/global_stock/nav/nav.css" />
+<title>Carleton College: Computer Science: Installing Python 2.x On Your Home Computer</title>
+<link rel="stylesheet" type="text/css" href="/reason_package/reason_4.0/www/css/modules.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/default_styles.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/dept_styles_new.css" />
+<link rel="stylesheet" type="text/css" href="/global_stock/css/mathcs_subsites.css" />
+<link rel="stylesheet" type="text/css" href="/curricular/cs/assets/stylesheet.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<script type="text/javascript" src="/global_stock/js/site_search_form.js"></script>
+</head>
+<body class="fullGraphics crumbs"><div class="hide"><a href="#content" class="hide">Skip Navigation</a></div>
+
+
+<p class="hide"><a href="?textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<a name="top"></a><div id="carlNavWrap" class="standard">
+<div id="carlNav">
+<h1 id="carlHome"><a href="//www.carleton.edu/" title="Carleton College Home"><span></span>Carleton College</a></h1>
+<div class="searchWrap">
+<div id="combinedSearch">
+<div class="finders"><ul><li class="az"><a href="/az/" title="Alphabetical site list">A-Z Guide</a></li><li class="dir"><a href="//www.carleton.edu/campus/directory/" title="Faculty, Staff, &amp; Student Directory">Directory</a></li></ul></div>
+<form action="/search/" method="get">
+<div class="elements">
+<label for="combinedSearchInput" id="combinedSearchInputLabel"><span class="rep"></span>Search<span class="xtr"> people and pages</span></label>
+<input type="text" id="combinedSearchInput" name="keyword" size="14" class="input" />
+<input type="submit" id="combinedSearchSubmit" value="go" class="submit" />
+</div>
+</form>
+</div>
+</div>
+<div id="carlTabs">
+<div id="carlTopics"><ul><li class="home"><a href="//www.carleton.edu/" title="Carleton College home page"><img src="/global_stock/nav/img/home.gif" alt="Home" /></a></li><li class="acad sel"><a href="/academics/" title="Departments, programs, &amp; majors"><img src="/global_stock/nav/img/acad_sel.gif" alt="Academics" /></a></li><li class="life"><a href="/life/" title="Arts, athletics, organizations, and more"><img src="/global_stock/nav/img/life.gif" alt="Campus Life" /></a></li></ul></div><div id="carlAudiences"><ul><li class="prosp"><a href="/admissions/" title="Admissions &amp; other information for prospective students"><img src="/global_stock/nav/img/prosp.gif" alt="Prospective Students" /></a></li><li class="alum"><a href="/alumni/" title="Alumni Gateway"><img src="/global_stock/nav/img/alum.gif" alt="Alumni" /></a></li><li class="facs"><a href="/campus/" title="Faculty/Staff Gateway"><img src="/global_stock/nav/img/facs.gif" alt="Faculty &amp; Staff" /></a></li><li class="stud"><a href="/student/" title="Student Gateway"><img src="/global_stock/nav/img/stud.gif" alt="Students" /></a></li><li class="fam"><a href="/parents/" title="Parent &amp; Family Gateway"><img src="/global_stock/nav/img/fam.gif" alt="Families" /></a></li></ul></div>
+</div>
+</div>
+</div>
+<div id="wrapper" class="fullGraphicsView">
+<div id="breadcrumbs" class="locationBarText">You are here: <a href='http://www.carleton.edu/curricular/index.html' class='locationBarLinks'>Academic Departments</a> &gt; <a href="/curricular/cs/" class="locationBarLinks">Computer Science</a> &gt; <a href="/curricular/cs/resources/" class="locationBarLinks">Resources</a> &gt; <a href="/curricular/cs/resources/source/" class="locationBarLinks">Programming Resources and Tools</a> &gt; Installing Python 2.x On Your Home Computer</div>
+<div class="bannerAndMeat fullGraphics">
+<div class="banner">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bannerTable" summary="The Site Name">
+<tr>
+<td class="bannerCol1">
+<div class="bannerInfo">
+<h1 class="siteName"><a href="/curricular/cs/" class="siteLink"><span>Computer Science</span></a></h1>
+</div>
+</td>
+<td class="bannerCol2">
+<div class="bannerXtra">
+
+<form method="post" action="http://search.carleton.edu/search.php" name="search" class="searchForm">
+<input type="text" name="words" size="23" value="Search Computer Science" onfocus='if(this.value=="Search Computer Science") {this.value="";}' onblur='if(this.value=="") {this.value="Search Computer Science";}' class="searchInputBox" id="minisiteSearchInput" />
+<a href="javascript:document.search.submit()" class="searchSubmitLink">Go</a>
+<noscript><input name="go" type="submit" value="go" /></noscript>
+<input type="hidden" name="restrict" value="http://apps.carleton.edu/curricular/cs/" />
+<input type="hidden" name="method" value="and" /><input type="hidden" name="format" value="builtin-long" /><input type="hidden" name="sort" value="score" /><input type="hidden" name="matchesperpage" value="10" /><input type="hidden" name="config" value="htdig" /><input type="hidden" name="exclude" value="" />
+</form>
+
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="layout">
+<table border="0" cellspacing="0" cellpadding="0" class="layoutTable" summary="The Main Content of Page">
+<tr>
+<td valign="top" class="navigationTD">
+<div class="navigation">
+
+
+<div id="minisiteNavigation"><div class="list"><ul class="navListTop"><li class="navListItem open"><a href="/curricular/cs/" class="home"><span>Computer Science Home</span></a><ul class="navList"><li class="navListItem closed"><a href="/curricular/cs/overview/">Overview</a></li><li class="navListItem closed item1"><a href="/curricular/cs/faculty/">Faculty &amp; Staff</a></li><li class="navListItem closed item2"><a href="/curricular/cs/courses/">Courses</a></li><li class="navListItem closed item3"><a href="/curricular/cs/major/">The Major</a></li><li class="navListItem open item4"><a href="/curricular/cs/resources/">Resources</a><ul class="navList"><li class="navListItem closed item4"><a href="/curricular/cs/resources/application/">Student Employment</a></li><li class="navListItem open item5"><a href="/curricular/cs/resources/source/">Programming Resources and Tools</a><ul class="navList"><li class="navListItem closed item5"><a href="/curricular/cs/resources/source/mini_courses/">CS Mini Courses</a></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/source/introcpp/">Compiling in Linux</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/source/makefiles/">Makefiles</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/source/keyb_int/">Keyboard Interrupts</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/source/bg_progs/">Running programs in the background</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/source/javascanner/">Scanner class</a></li><li class="navListItem closed item11 jump"><a href="http://www.mathcs.carleton.edu/courses/course_resources/j2se-1.5.0-docs/index.html">Java Documentation</a></li><li class="navListItem closed item12"><a href="/curricular/cs/resources/source/java_classpath_variable/">Setting your Java CLASSPATH variable</a></li><li class="navListItem closed item13"><a href="/curricular/cs/resources/source/java_install/">Installing Java 1.6 on your home computer</a></li><li class="navListItem open current item14"><strong>Installing Python 2.x On Your Home Computer</strong></li><li class="navListItem closed item15"><a href="/curricular/cs/resources/source/Python_26/">Installing Python 3.0 on your home computer</a></li><li class="navListItem closed item16"><a href="/curricular/cs/resources/source/cygwin_howto/">Installing Cygwin</a></li><li class="navListItem closed item17"><a href="/curricular/cs/resources/source/tex/">TeX and LaTeX</a></li></ul></li><li class="navListItem closed item6"><a href="/curricular/cs/resources/hsp/">Homework Submission</a></li><li class="navListItem closed item7"><a href="/curricular/cs/resources/labs/">Labs</a></li><li class="navListItem closed item8"><a href="/curricular/cs/resources/cs_lab_assistant_resources/">CS Lab Assistant Resources</a></li><li class="navListItem closed item9"><a href="/curricular/cs/resources/libe/">Periodicals</a></li><li class="navListItem closed item10"><a href="/curricular/cs/resources/links/">Links</a></li><li class="navListItem closed item11"><a href="/curricular/cs/resources/graderguidelines/">Grader Guidelines</a></li><li class="navListItem closed item12 jump"><a href="http://www.cs.carleton.edu/courses/course_resources/Unix2/">UNIX Tutorial for Beginners</a></li><li class="navListItem closed item13 jump"><a href="http://cs.carleton.edu/faculty/jondich/courses/python/">Transition to Python from Another Programming Language</a></li></ul></li><li class="navListItem closed item5"><a href="/curricular/cs/events/">Events</a></li><li class="navListItem closed item6"><a href="/curricular/cs/news/">Newsletter</a></li><li class="navListItem closed item7"><a href="/curricular/cs/students/">Students</a></li><li class="navListItem closed item8 jump"><a href="http://www.mathcs.carleton.edu/cs_comps">Computer Science Comps</a></li><li class="navListItem closed item9"><a href="/curricular/cs/summerresearch/">Summer Research Opportunities</a></li><li class="navListItem closed item10"><a href="/curricular/cs/CS_Career_Resources/">Career Resources</a></li><li class="navListItem closed item11"><a href="/curricular/cs/newstudents/">Guide for New Students</a></li></ul></li></ul>
+</div></div>
+
+</div>
+
+
+<p class="textOnlyLink smallText"><a href="?textonly=1"><span class="textOnly">Text Only/<span class="tiny"> </span>Printer-Friendly</span></a></p>
+
+
+<div class="navigationSpacer"><img src="/reason_package/reason_4.0/www/ui_images/stp.gif" width="150" height="2" alt="" /></div>
+</td>
+<td valign="top" class="contentTD">
+<div class="content"><a name="content"></a>
+<div class="contentHead">
+
+
+<h2 class="pageTitle"><span>Installing Python 2.x On Your Home Computer</span></h2>
+
+</div>
+<div class="contentMain">
+
+
+<div id="pageContent"><h3><strong>Installing Python 2.x On Your Home Computer</strong></h3>
+<p><strong>Windows XP</strong> and Vista and Windows 7</p>
+<p>Download and Install Python 2.7.1:</p>
+<blockquote>
+<ol>
+<li>Go to www.python.org/download/releases/2.7.1</li>
+<li>Scroll down and pick Windows x86 MSI Installer (2.7.1).&nbsp; Do NOT install the 64 bit version;&nbsp; the 64 bit version conflicts with PIL, a library used in CS 111.</li>
+<li>Save the installer. When it is downloaded, run it.</li>
+<li>On the first installer screen select "install for all users". Click next.</li>
+<li>Select where you want python to be installed. If the default is fine, click next.</li>
+<li>In the Customization screen, click on the python drop down box at the top of the tree, and select "Entire feature will be installed on local hard-drive". Click next.</li>
+<li>Click finish.</li>
+</ol>
+</blockquote>
+<p>To test your installation:</p>
+<blockquote>
+<ol>
+<li>Click start -&gt; programs</li>
+<li>Click Python 2.7 -&gt; IDLE. A python shell should open up</li>
+<li>At the prompt type "print 'hello world'"</li>
+<li>"hello world" should be echoed back.</li>
+</ol>
+</blockquote>
+<p>Add python to your path:</p>
+<blockquote>
+<ol>
+<li>Right click on my computer, and pull down to properties.</li>
+<li>Skip this step if you are not running Windows XP. Click on "Advanced system settings" on the left "Tasks" bar.</li>
+<li>Click on Advanced.</li>
+<li>Click on Environment Variables</li>
+<li>In the "system variables" list, select "Path", and click on Edit.</li>
+<li>Add ";c:\Python27" to the end of the "Variable value:" field. Note: DO NOT ADD the double quotes</li>
+<li>Click "ok" three times.</li>
+</ol>
+</blockquote>
+<p>To test the path:</p>
+<blockquote>
+<ol>
+<li>Click Start/All Programs/Accessories/Command Prompt.</li>
+<li>Type "python" without the double quotes.</li>
+<li>You should see a python prompt; try entering "1+1", if you get "2" then everything is running correctly.</li>
+</ol>
+</blockquote>
+<p>If you are looking for a windows editor that has more functionality than notepad and still saves files as text only, you might want to try <a target="_blank" href="http://www.contexteditor.org/">ConTEXT</a>or <a href="http://ftp.gnu.org/gnu/emacs/windows/emacs-22.3-bin-i386.zip">emacs</a>.<strong><br /></strong></p>
+<p><strong>Mac OS</strong></p>
+<p>Most modern Mac operating systems come with python preinstalled.</p>
+<p>To access the terminal:</p>
+<blockquote>
+<ol>
+<li>Go to Applications -&gt;Utilities.</li>
+<li>Terminal should be in that list.</li>
+<li>If you want permanent access to the terminal just drag it to the dock.</li>
+</ol>
+</blockquote>
+<p>To test your installation of python:</p>
+<blockquote>
+<ol>
+<li>Open a terminal.</li>
+<li>Type python</li>
+<li>A prompt should show up that looks like "&gt;&gt;&gt;"</li>
+</ol>
+</blockquote>
+<p>If you are looking for a text editor, there is a lot of personal preference involved, two freeware versions for the mac are <a title="TextWrangler" target="_blank" href="http://www.barebones.com/products/TextWrangler/">TextWrangler</a> and <a title="SubEthaEdit" target="_blank" href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a>. If you don't want to download a new editor, a standard simple text editor that comes with most Macs is TextEdit.</p>
+<p>To use TextEdit as your default editor:</p>
+<blockquote>
+<ol>
+<li>Open TextEdit (in your applications folder)</li>
+<li>Click TextEdit -&gt; Preferences</li>
+<li>Change the format to plaintext</li>
+<li>Click on the tabe marked "Open and Save"</li>
+<li>Uncheck the box "Add .txt to plain text files"</li>
+<li>Open a new document and you should be ready to go, just make sure when you save to save as "<em>YourProgramName</em>.py"</li>
+</ol>
+</blockquote>
+<p>Linux</p>
+<p>Most versions of linux come with python already installed. If yours doesn't or if you just can't find it, contact Mike Tie (mtie@carleton.edu).</p>
+<p>You will have lots of choices of editors under linux, a simple one that we have had good luck with is <a title="http://www.nedit.org/" target="_blank" href="http://www.nedit.org/">NEdit</a>.</p>
+<p>Problems:</p>
+<p>If you run into trouble, please contact Mike Tie (mtie@carleton.edu).</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer" class="maintained">
+
+
+<div id="maintained">
+<div id="maintainer">Computer Science pages maintained by <a href="mailto:sjandro@carleton.edu">Sue Jandro</a></div><div id="lastUpdated">This page was last updated on 29 March 2011</div></div>
+
+
+
+
+<p id="footerLoginLink"><a href="https://apps.carleton.edu/login/">Login</a></p>
+
+</div>
+</div>
+</body>
+</html>
