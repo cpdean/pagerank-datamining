@@ -38,7 +38,8 @@ class Page(HTMLParser):
                     filename = self.convert_link_to_fs_path(url)
                     if not os.path.exists(filename):
                         url = self.add_index_ref(url) # Resolve implied file
-                    if self.is_page(url):  #Only accept html files
+                        filename = self.convert_link_to_fs_path(url)
+                    if os.path.exists(filename) and self.is_page(url):  #Only accept html files that exist
                         self.links.append(url)
 
     def isValidLink(self,url):
@@ -207,9 +208,14 @@ def removeDeadEnds(adj_matrix):
     deadends = find_dead_ends(adj_matrix) #prime the algorithm with current deadends
     counter = 0
     while len(deadends) > 0:
-        page = deadends.pop()
-        deadends += remove_page(page,adj_matrix) # add new deadends you find
-        counter += 1
+        for d in deadends:
+            del adj_matrix[d]
+            # and remove all other references
+            for page in adj_matrix:
+                if d in adj_matrix[page]:
+                    del adj_matrix[page][d]
+            counter += 1
+        deadends = find_dead_ends(adj_matrix)
     print counter, "deadends removed"
     return adj_matrix
 
@@ -218,7 +224,7 @@ def find_dead_ends(adj_matrix):
     for page in adj_matrix:
         if len(adj_matrix[page]) == 0: 
             d.append(page)
-    print len(d), "starter deadends"
+    print len(d), "deadends found"
     return d
 
 def remove_page(deadpage,adj_matrix):
