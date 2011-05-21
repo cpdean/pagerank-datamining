@@ -128,7 +128,6 @@ def webCrawler():
     starterPage = Page("deptsite/apps.carleton.edu/curricular/cs/index.html")
     pages_to_scan = [starterPage]  # queue of pages to scan through
     #pages_to_scan = [Page(name) for name in all_pages("deptsite/")]
-
     pages_visited = {}  # dictionary of filenames so you don't scan same file twice
     bad = []
     good = []
@@ -156,20 +155,30 @@ def webCrawler():
     print bad[0].filename
     """
 
-def pageRank(startPage):
-    adj_matrix = buildAdjacencyMatrix(startPage)
+def pageRank(startDirectory):
+    import pickle
+    #'''
+    '''
+    #startDirectory = "deptsite/"
+    adj_matrix = buildAdjacencyMatrix(startDirectory)
+    with open("adjacency_matrix.p", "wb") as picklefile:
+        pickle.dump(adj_matrix, picklefile)
+    '''
+    #'''
+    with open("adjacency_matrix.p", "rb") as picklefile:
+        adj_matrix = pickle.load(picklefile)
+    '''
+    #'''
+
     print len(adj_matrix), "many pages"
     adj_matrix = removeDeadEnds(adj_matrix)
     print len(adj_matrix), "many pages"
     page_matrix = buildPageRankMatrix(adj_matrix) # outlink probabilities matrix
     print len(adj_matrix), "many pages"
     
-def buildAdjacencyMatrix(startPage):
-    starterPage = Page(startPage)
-    pages_to_scan = [starterPage]
-
+def buildAdjacencyMatrix(startDirectory):
+    pages_to_scan = [Page(f) for f in all_pages(startDirectory)]
     links = {}
-
     pages_visited = {}
     good = []
     bad = []
@@ -238,6 +247,7 @@ def remove_page(deadpage,adj_matrix):
 
 
 if __name__ == '__main__':
-    pageRank("deptsite/apps.carleton.edu/curricular/cs/index.html")
+    #pageRank("deptsite/apps.carleton.edu/curricular/cs/index.html")
+    pageRank("deptsite/")
     #webCrawler()
     #main()
