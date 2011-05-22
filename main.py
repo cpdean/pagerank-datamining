@@ -167,15 +167,54 @@ def pageRank(startDirectory):
     #'''
     with open("adjacency_matrix.p", "rb") as picklefile:
         adj_matrix = pickle.load(picklefile)
+
+    #'''
+    '''
+    a = {}
+    a["a"] = {}
+    a["b"] = {}
+    a["c"] = {}
+    a["a"]["b"] = True
+    a["a"]["c"] = True
+    a["b"]["a"] = True
+    a["c"]["b"] = True
+    adj_matrix = a
     '''
     #'''
 
-    print len(adj_matrix), "many pages"
-    adj_matrix = removeDeadEnds(adj_matrix)
-    print len(adj_matrix), "many pages"
-    page_matrix = buildPageRankMatrix(adj_matrix) # outlink probabilities matrix
-    print len(adj_matrix), "many pages"
+
+    solid_matrix = removeDeadEnds(adj_matrix)
+    page_matrix = buildPageRankMatrix(solid_matrix) # outlink probabilities matrix
+    rank_vector = dict((page,1.0/len(page_matrix)) for page in page_matrix) # init rank_vector as a series of 1/n
+    old = dict((page,0) for page in page_matrix) # init rank_vector as a series of 1/n
+    threshold = 10
+
+    difference = distance(old,rank_vector)
+    while difference > 0.0001:
+        print difference
+        old = dict(rank_vector.items())
+        rank_vector = one_iteration(rank_vector,page_matrix)
+        difference = distance(old,rank_vector)
+    print "done"
+    for i in rank_vector.items():
+                    print i
     
+def one_iteration(rank_vector,page_matrix):
+    new_vector = {}
+    for source in rank_vector:
+        tally = 0
+        for target in rank_vector:
+            add = rank_vector[target]*page_matrix[target].get(source,0) # transposed by flipping source and target
+            tally += add
+        new_vector[source] = tally
+    return new_vector
+
+def distance(a, b):
+    d = 0
+    for page in a:
+        d += (a[page]-b[page])**2
+    return d
+
 def buildAdjacencyMatrix(startDirectory):
     pages_to_scan = [Page(f) for f in all_pages(startDirectory)]
     links = {}
