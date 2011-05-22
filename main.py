@@ -174,16 +174,19 @@ def pageRank(startDirectory):
     a["a"] = {}
     a["b"] = {}
     a["c"] = {}
+    a["d"] = {}
     a["a"]["b"] = True
     a["a"]["c"] = True
     a["b"]["a"] = True
     a["c"]["b"] = True
+    a["c"]["d"] = True
     adj_matrix = a
     '''
     #'''
 
 
-    solid_matrix = removeDeadEnds(adj_matrix)
+    solid_matrix,deadends = removeDeadEnds(adj_matrix)
+    #solid_matrix = adj_matrix
     page_matrix = buildPageRankMatrix(solid_matrix) # outlink probabilities matrix
     rank_vector = dict((page,1.0/len(page_matrix)) for page in page_matrix) # init rank_vector as a series of 1/n
     old = dict((page,0) for page in page_matrix) # init rank_vector as a series of 1/n
@@ -191,15 +194,48 @@ def pageRank(startDirectory):
 
     difference = distance(old,rank_vector)
     while difference > 0.0001:
-        print difference
+    #while difference > 0:
+        #print difference
         old = dict(rank_vector.items())
-        rank_vector = one_iteration(rank_vector,page_matrix)
+        #rank_vector = one_iteration(rank_vector,page_matrix)
+        rank_vector = spidertrap_iteration(rank_vector,page_matrix)
         difference = distance(old,rank_vector)
     print "done"
-    for i in rank_vector.items():
-                    print i
+    #for i in rank_vector.items():
+                    #print i
+    # rank_vector finished, now restore deadends
+    print "restoring deadends"
+    print deadends
+    deadends.reverse()
+    original_matrix = buildPageRankMatrix(adj_matrix)
+    for d in deadends:
+        backlink_pages = get_backlinks(original_matrix,d)
+        #print "pages!",backlink_pages
+        deadpage_rank = 0
+        for source_page in backlink_pages:
+            #print "adding stuff from",source_page
+            deadpage_rank += get_deadend_rank(original_matrix,source_page,rank_vector[source_page])
+        rank_vector[d] = deadpage_rank
+
+    pages = sorted(rank_vector.items(), key=lambda x:x[1],reverse=True)
+    print "top ten ranks"
+    for i in range(10):
+        print pages[i]
+
+def get_backlinks(matrix,d):
+    pages = []
+    for p in matrix:
+        if d in matrix[p]:
+            pages.append(p)
+    return pages
+
+def get_deadend_rank(matrix,page,rank_of_page):
+    outlinks = len(matrix[page])
+    #print outlinks
+    return rank_of_page/outlinks
     
 def one_iteration(rank_vector,page_matrix):
+    # v = Mv
     new_vector = {}
     for source in rank_vector:
         tally = 0
@@ -207,6 +243,29 @@ def one_iteration(rank_vector,page_matrix):
             add = rank_vector[target]*page_matrix[target].get(source,0) # transposed by flipping source and target
             tally += add
         new_vector[source] = tally
+    return new_vector
+
+def spidertrap_iteration(rank_vector,page_matrix,beta=0.8):
+    #v = B*Mv + (1-B)/n * e
+    # new_vector = Mv
+    new_vector = {}
+    e_vector = dict((page,1) for page in rank_vector)
+    for source in rank_vector:
+        tally = 0
+        for target in rank_vector:
+            add = rank_vector[target]*page_matrix[target].get(source,0) # transposed by flipping source and target
+            tally += add
+        new_vector[source] = tally
+    # new_vector = B*Mv
+    for page in new_vector:
+        new_vector[page] = beta*new_vector[page]
+    # e_vector  = (1-B)/n * e_vector  # calculate probability of jumping to pages
+    for page in e_vector:
+        e_vector[page] = (1-beta)/len(e_vector)
+    # add two vectors together
+    for page in new_vector:
+        new_vector[page] += e_vector[page]
+
     return new_vector
 
 def distance(a, b):
@@ -253,11 +312,15 @@ def buildPageRankMatrix(adjacencyMatrix):
     return matrix
 
 def removeDeadEnds(adj_matrix):
+    import copy
+    all_deadends = [] # collect removed pages, so you can restore them in reverse order
+    adj_matrix = copy.deepcopy(adj_matrix)
     deadends = find_dead_ends(adj_matrix) #prime the algorithm with current deadends
     counter = 0
     while len(deadends) > 0:
         for d in deadends:
             del adj_matrix[d]
+            all_deadends.append(d)
             # and remove all other references
             for page in adj_matrix:
                 if d in adj_matrix[page]:
@@ -265,7 +328,7 @@ def removeDeadEnds(adj_matrix):
             counter += 1
         deadends = find_dead_ends(adj_matrix)
     print counter, "deadends removed"
-    return adj_matrix
+    return adj_matrix, all_deadends
 
 def find_dead_ends(adj_matrix):
     d = []
