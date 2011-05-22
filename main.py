@@ -193,12 +193,15 @@ def pageRank(startDirectory):
     threshold = 10
 
     difference = distance(old,rank_vector)
-    while difference > 0.0001:
+    iterations = 0
+    beta = 0.9
+    while difference > 0.0000001:
     #while difference > 0:
+        iterations += 1
         #print difference
         old = dict(rank_vector.items())
         #rank_vector = one_iteration(rank_vector,page_matrix)
-        rank_vector = spidertrap_iteration(rank_vector,page_matrix)
+        rank_vector = spidertrap_iteration(rank_vector,page_matrix,beta)
         difference = distance(old,rank_vector)
     print "done"
     #for i in rank_vector.items():
@@ -221,6 +224,8 @@ def pageRank(startDirectory):
     print "top ten ranks"
     for i in range(10):
         print pages[i]
+    print "took %d iterations with beta set to %f" % (iterations,beta)
+    print beta
 
 def get_backlinks(matrix,d):
     pages = []
